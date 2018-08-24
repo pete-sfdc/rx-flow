@@ -1,0 +1,17 @@
+<aura:component implements="lightning:availableForFlowScreens" access="global">
+    <aura:attribute name="callscript" type="String" default="" access="global" />
+    <div>
+        <div style="padding: 5px; border-style: solid; border-width: 3px; border-color:
+        green;">
+            <div class="slds-box slds-theme_shade">
+            <div style="float:center; margin-right:15px;">
+                <div class="slds-p-right_medium"><lightning:icon iconName="utility:smiley_and_people"/></div>
+                <span style="font-size: 16px; line-height:2;" class="greeting">{!v.callscript}
+                This is your pill and you have a prescription for this pill. 
+            </span>
+                </div> 
+            </div>
+        </div>
+    </div>
+    <br/>
+</aura:component>

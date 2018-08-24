@@ -1,0 +1,2005 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{e343bf9b-5f05-4531-94d3-77a3efeead20}</ProjectGuid>
+    <ApexVersion>42.0</ApexVersion>
+    <Name>RX_Flow</Name>
+    <AssemblyName>RX_Flow</AssemblyName>
+    <RootNamespace>RX_Flow</RootNamespace>
+    <ProjectVersion>6</ProjectVersion>
+    <PackageVersion>1.14.5.4</PackageVersion>
+    <SyncOption>True</SyncOption>
+    <AntSupport>False</AntSupport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <ItemGroup>
+    <Folder Include="AnonymousApex" />
+    <Folder Include="Soql" />
+    <Folder Include="aura\" />
+    <Folder Include="aura\confusionMatrix\" />
+    <Folder Include="aura\defaultTokens\" />
+    <Folder Include="aura\EinsteinDataAndTraining\" />
+    <Folder Include="aura\EinsteinDataset\" />
+    <Folder Include="aura\EinsteinDatasetCreation\" />
+    <Folder Include="aura\EinsteinGenericPlaygroundComponent\" />
+    <Folder Include="aura\EinsteinLanguageMassUpdate\" />
+    <Folder Include="aura\EinsteinLanguageModelBuilder\" />
+    <Folder Include="aura\einsteinModelMetrics\" />
+    <Folder Include="aura\EinsteinModelSelect\" />
+    <Folder Include="aura\EinsteinObjectDetection\" />
+    <Folder Include="aura\EinsteinPlatform_Card\" />
+    <Folder Include="aura\EinsteinPlayground\" />
+    <Folder Include="aura\EinsteinPlaygroundIntroduction\" />
+    <Folder Include="aura\EinsteinPredictionArea\" />
+    <Folder Include="aura\EinsteinRecordIntent\" />
+    <Folder Include="aura\EinsteinUsage\" />
+    <Folder Include="aura\EinsteinVision\" />
+    <Folder Include="aura\EinsteinVision_Admin_UI\" />
+    <Folder Include="aura\EinsteinVision_Pill_Uploader\" />
+    <Folder Include="aura\EinsteinVision_Pill_Uploader_Flow\" />
+    <Folder Include="aura\EinsteinVision_Pill_Uploader_QA\" />
+    <Folder Include="aura\EventEinsteinDataset\" />
+    <Folder Include="aura\EventEinsteinDatasetRefresh\" />
+    <Folder Include="aura\EventEinsteinModels\" />
+    <Folder Include="aura\EventEinsteinWaiting\" />
+    <Folder Include="aura\examplesDetail\" />
+    <Folder Include="aura\f1Displayer\" />
+    <Folder Include="aura\handleCallbackError\" />
+    <Folder Include="aura\Histogram\" />
+    <Folder Include="aura\LightningErrorHandler\" />
+    <Folder Include="aura\Lightning_Flow_Tiles\" />
+    <Folder Include="aura\MOCK_svg\" />
+    <Folder Include="aura\scriptDisplayFSC\" />
+    <Folder Include="aura\scriptDisplayFSCsuccess\" />
+    <Folder Include="aura\ShelfScanCompleted\" />
+    <Folder Include="aura\WordCloud\" />
+    <Folder Include="classes\" />
+    <Folder Include="triggers\" />
+    <Folder Include="globalValueSets\" />
+    <Folder Include="objects\" />
+    <Folder Include="staticresources\" />
+    <Folder Include="staticresources\jqcloud\" />
+    <Folder Include="staticresources\jqcloud\jQCloud-master\" />
+    <Folder Include="staticresources\jqcloud\jQCloud-master\dist\" />
+    <Folder Include="staticresources\jqcloud\jQCloud-master\src\" />
+    <Folder Include="staticresources\jqcloud\jQCloud-master\test\" />
+    <Folder Include="staticresources\Pills\" />
+    <Folder Include="staticresources\Pills\Pills\" />
+    <Folder Include="staticresources\Pills\Pills\Ethinylestradiol\" />
+    <Folder Include="staticresources\Pills\Pills\Lorazepam\" />
+    <Folder Include="staticresources\Pills\Pills\Oxybutynin\" />
+    <Folder Include="aura\" />
+    <Folder Include="aura\confusionMatrix\" />
+    <Folder Include="aura\defaultTokens\" />
+    <Folder Include="aura\EinsteinDataAndTraining\" />
+    <Folder Include="aura\EinsteinDataset\" />
+    <Folder Include="aura\EinsteinDatasetCreation\" />
+    <Folder Include="aura\EinsteinGenericPlaygroundComponent\" />
+    <Folder Include="aura\EinsteinLanguageMassUpdate\" />
+    <Folder Include="aura\EinsteinLanguageModelBuilder\" />
+    <Folder Include="aura\einsteinModelMetrics\" />
+    <Folder Include="aura\EinsteinModelSelect\" />
+    <Folder Include="aura\EinsteinObjectDetection\" />
+    <Folder Include="aura\EinsteinPlatform_Card\" />
+    <Folder Include="aura\EinsteinPlayground\" />
+    <Folder Include="aura\EinsteinPlaygroundIntroduction\" />
+    <Folder Include="aura\EinsteinPredictionArea\" />
+    <Folder Include="aura\EinsteinRecordIntent\" />
+    <Folder Include="aura\EinsteinUsage\" />
+    <Folder Include="aura\EinsteinVision\" />
+    <Folder Include="aura\EinsteinVision_Admin_UI\" />
+    <Folder Include="aura\EinsteinVision_Pill_Uploader\" />
+    <Folder Include="aura\EinsteinVision_Pill_Uploader_Flow\" />
+    <Folder Include="aura\EinsteinVision_Pill_Uploader_QA\" />
+    <Folder Include="aura\EventEinsteinDataset\" />
+    <Folder Include="aura\EventEinsteinDatasetRefresh\" />
+    <Folder Include="aura\EventEinsteinModels\" />
+    <Folder Include="aura\EventEinsteinWaiting\" />
+    <Folder Include="aura\examplesDetail\" />
+    <Folder Include="aura\f1Displayer\" />
+    <Folder Include="aura\handleCallbackError\" />
+    <Folder Include="aura\Histogram\" />
+    <Folder Include="aura\LightningErrorHandler\" />
+    <Folder Include="aura\Lightning_Flow_Tiles\" />
+    <Folder Include="aura\MOCK_svg\" />
+    <Folder Include="aura\scriptDisplayFSC\" />
+    <Folder Include="aura\scriptDisplayFSCsuccess\" />
+    <Folder Include="aura\ShelfScanCompleted\" />
+    <Folder Include="aura\WordCloud\" />
+    <Folder Include="classes\" />
+    <Folder Include="triggers\" />
+    <Folder Include="globalValueSets\" />
+    <Folder Include="objects\" />
+    <Folder Include="staticresources\" />
+    <Folder Include="staticresources\jqcloud\" />
+    <Folder Include="staticresources\jqcloud\jQCloud-master\" />
+    <Folder Include="staticresources\jqcloud\jQCloud-master\dist\" />
+    <Folder Include="staticresources\jqcloud\jQCloud-master\src\" />
+    <Folder Include="staticresources\jqcloud\jQCloud-master\test\" />
+    <Folder Include="staticresources\Pills\" />
+    <Folder Include="staticresources\Pills\Pills\" />
+    <Folder Include="staticresources\Pills\Pills\Ethinylestradiol\" />
+    <Folder Include="staticresources\Pills\Pills\Lorazepam\" />
+    <Folder Include="staticresources\Pills\Pills\Oxybutynin\" />
+    <Folder Include="applications\" />
+    <Folder Include="tabs\" />
+    <Folder Include="flowDefinitions\" />
+    <Folder Include="layouts\" />
+    <Folder Include="staticresources\TWS_Sync_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="aura/defaultTokens/defaultTokens.tokens">
+      <PhysicalRelativePath>src/aura/defaultTokens/defaultTokens.tokens</PhysicalRelativePath>
+      <SubType>AuraDefinitionBundle</SubType>
+      <BundleName>defaultTokens</BundleName>
+      <LightningType>Tokens</LightningType>
+    </Compile>
+    <Compile Include="aura/EinsteinPlatform_Card/EinsteinPlatform_Card.cmp">
+      <PhysicalRelativePath>src/aura/EinsteinPlatform_Card/EinsteinPlatform_Card.cmp</PhysicalRelativePath>
+      <SubType>AuraDefinitionBundle</SubType>
+      <BundleName>EinsteinPlatform_Card</BundleName>
+      <LightningType>Component</LightningType>
+    </Compile>
+    <Compile Include="aura/EinsteinPlatform_Card/EinsteinPlatform_Card.css">
+      <PhysicalRelativePath>src/aura/EinsteinPlatform_Card/EinsteinPlatform_Card.css</PhysicalRelativePath>
+      <SubType>AuraDefinitionBundle</SubType>
+      <BundleName>EinsteinPlatform_Card</BundleName>
+      <LightningType>Style</LightningType>
+    </Compile>
+    <Compile Include="aura/EinsteinVision_Admin_UI/EinsteinVision_Admin_UI.auradoc">
+      <PhysicalRelativePath>src/aura/EinsteinVision_Admin_UI/EinsteinVision_Admin_UI.auradoc</PhysicalRelativePath>
+      <SubType>AuraDefinitionBundle</SubType>
+      <BundleName>EinsteinVision_Admin_UI</BundleName>
+      <LightningType>Documentation</LightningType>
+    </Compile>
+    <Compile Include="aura/EinsteinVision_Admin_UI/EinsteinVision_Admin_UI.cmp">
+      <PhysicalRelativePath>src/aura/EinsteinVision_Admin_UI/EinsteinVision_Admin_UI.cmp</PhysicalRelativePath>
+      <SubType>AuraDefinitionBundle</SubType>
+      <BundleName>EinsteinVision_Admin_UI</BundleName>
+      <LightningType>Component</LightningType>
+    </Compile>
+    <Compile Include="aura/EinsteinVision_Admin_UI/EinsteinVision_Admin_UI.css">
+      <PhysicalRelativePath>src/aura/EinsteinVision_Admin_UI/EinsteinVision_Admin_UI.css</PhysicalRelativePath>
+      <SubType>AuraDefinitionBundle</SubType>
+      <BundleName>EinsteinVision_Admin_UI</BundleName>
+      <LightningType>Style</LightningType>
+    </Compile>
+    <Compile Include="aura/EinsteinVision_Admin_UI/EinsteinVision_Admin_UI.design">
+      <PhysicalRelativePath>src/aura/EinsteinVision_Admin_UI/EinsteinVision_Admin_UI.design</PhysicalRelativePath>
+      <SubType>AuraDefinitionBundle</SubType>
+      <BundleName>EinsteinVision_Admin_UI</BundleName>
+      <LightningType>Design</LightningType>
+    </Compile>
+    <Compile Include="aura/EinsteinVision_Admin_UI/EinsteinVision_Admin_UI.svg">
+      <PhysicalRelativePath>src/aura/EinsteinVision_Admin_UI/EinsteinVision_Admin_UI.svg</PhysicalRelativePath>
+      <SubType>AuraDefinitionBundle</SubType>
+      <BundleName>EinsteinVision_Admin_UI</BundleName>
+      <LightningType>SVG</LightningType>
+    </Compile>
+    <Compile Include="aura/EinsteinVision_Admin_UI/EinsteinVision_Admin_UIController.js">
+      <PhysicalRelativePath>src/aura/EinsteinVision_Admin_UI/EinsteinVision_Admin_UIController.js</PhysicalRelativePath>
+      <SubType>AuraDefinitionBundle</SubType>
+      <BundleName>EinsteinVision_Admin_UI</BundleName>
+      <LightningType>Controller</LightningType>
+    </Compile>
+    <Compile Include="aura/EinsteinVision_Admin_UI/EinsteinVision_Admin_UIHelper.js">
+      <PhysicalRelativePath>src/aura/EinsteinVision_Admin_UI/EinsteinVision_Admin_UIHelper.js</PhysicalRelativePath>
+      <SubType>AuraDefinitionBundle</SubType>
+      <BundleName>EinsteinVision_Admin_UI</BundleName>
+      <LightningType>Helper</LightningType>
+    </Compile>
+    <Compile Include="aura/EinsteinVision_Admin_UI/EinsteinVision_Admin_UIRenderer.js">
+      <PhysicalRelativePath>src/aura/EinsteinVision_Admin_UI/EinsteinVision_Admin_UIRenderer.js</PhysicalRelativePath>
+      <SubType>AuraDefinitionBundle</SubType>
+      <BundleName>EinsteinVision_Admin_UI</BundleName>
+      <LightningType>Renderer</LightningType>
+    </Compile>
+    <Compile Include="aura/EinsteinVision_Pill_Uploader/EinsteinVision_Pill_Uploader.cmp">
+      <PhysicalRelativePath>src/aura/EinsteinVision_Pill_Uploader/EinsteinVision_Pill_Uploader.cmp</PhysicalRelativePath>
+      <SubType>AuraDefinitionBundle</SubType>
+      <BundleName>EinsteinVision_Pill_Uploader</BundleName>
+      <LightningType>Component</LightningType>
+    </Compile>
+    <Compile Include="aura/EinsteinVision_Pill_Uploader/EinsteinVision_Pill_UploaderController.js">
+      <PhysicalRelativePath>src/aura/EinsteinVision_Pill_Uploader/EinsteinVision_Pill_UploaderController.js</PhysicalRelativePath>
+      <SubType>AuraDefinitionBundle</SubType>
+      <BundleName>EinsteinVision_Pill_Uploader</BundleName>
+      <LightningType>Controller</LightningType>
+    </Compile>
+    <Compile Include="aura/EinsteinVision_Pill_Uploader/EinsteinVision_Pill_UploaderHelper.js">
+      <PhysicalRelativePath>src/aura/EinsteinVision_Pill_Uploader/EinsteinVision_Pill_UploaderHelper.js</PhysicalRelativePath>
+      <SubType>AuraDefinitionBundle</SubType>
+      <BundleName>EinsteinVision_Pill_Uploader</BundleName>
+      <LightningType>Helper</LightningType>
+    </Compile>
+    <Compile Include="aura/EinsteinVision_Pill_Uploader_Flow/EinsteinVision_Pill_Uploader_Flow.cmp">
+      <PhysicalRelativePath>src/aura/EinsteinVision_Pill_Uploader_Flow/EinsteinVision_Pill_Uploader_Flow.cmp</PhysicalRelativePath>
+      <SubType>AuraDefinitionBundle</SubType>
+      <BundleName>EinsteinVision_Pill_Uploader_Flow</BundleName>
+      <LightningType>Component</LightningType>
+    </Compile>
+    <Compile Include="aura/EinsteinVision_Pill_Uploader_Flow/EinsteinVision_Pill_Uploader_Flow.design">
+      <PhysicalRelativePath>src/aura/EinsteinVision_Pill_Uploader_Flow/EinsteinVision_Pill_Uploader_Flow.design</PhysicalRelativePath>
+      <SubType>AuraDefinitionBundle</SubType>
+      <BundleName>EinsteinVision_Pill_Uploader_Flow</BundleName>
+      <LightningType>Design</LightningType>
+    </Compile>
+    <Compile Include="aura/EinsteinVision_Pill_Uploader_Flow/EinsteinVision_Pill_Uploader_FlowController.js">
+      <PhysicalRelativePath>src/aura/EinsteinVision_Pill_Uploader_Flow/EinsteinVision_Pill_Uploader_FlowController.js</PhysicalRelativePath>
+      <SubType>AuraDefinitionBundle</SubType>
+      <BundleName>EinsteinVision_Pill_Uploader_Flow</BundleName>
+      <LightningType>Controller</LightningType>
+    </Compile>
+    <Compile Include="aura/EinsteinVision_Pill_Uploader_QA/EinsteinVision_Pill_Uploader_QA.cmp">
+      <PhysicalRelativePath>src/aura/EinsteinVision_Pill_Uploader_QA/EinsteinVision_Pill_Uploader_QA.cmp</PhysicalRelativePath>
+      <SubType>AuraDefinitionBundle</SubType>
+      <BundleName>EinsteinVision_Pill_Uploader_QA</BundleName>
+      <LightningType>Component</LightningType>
+    </Compile>
+    <Compile Include="aura/EinsteinVision_Pill_Uploader_QA/EinsteinVision_Pill_Uploader_QAController.js">
+      <PhysicalRelativePath>src/aura/EinsteinVision_Pill_Uploader_QA/EinsteinVision_Pill_Uploader_QAController.js</PhysicalRelativePath>
+      <SubType>AuraDefinitionBundle</SubType>
+      <BundleName>EinsteinVision_Pill_Uploader_QA</BundleName>
+      <LightningType>Controller</LightningType>
+    </Compile>
+    <Compile Include="aura/examplesDetail/examplesDetail.auradoc">
+      <PhysicalRelativePath>src/aura/examplesDetail/examplesDetail.auradoc</PhysicalRelativePath>
+      <SubType>AuraDefinitionBundle</SubType>
+      <BundleName>examplesDetail</BundleName>
+      <LightningType>Documentation</LightningType>
+    </Compile>
+    <Compile Include="aura/examplesDetail/examplesDetail.cmp">
+      <PhysicalRelativePath>src/aura/examplesDetail/examplesDetail.cmp</PhysicalRelativePath>
+      <SubType>AuraDefinitionBundle</SubType>
+      <BundleName>examplesDetail</BundleName>
+      <LightningType>Component</LightningType>
+    </Compile>
+    <Compile Include="aura/examplesDetail/examplesDetail.css">
+      <PhysicalRelativePath>src/aura/examplesDetail/examplesDetail.css</PhysicalRelativePath>
+      <SubType>AuraDefinitionBundle</SubType>
+      <BundleName>examplesDetail</BundleName>
+      <LightningType>Style</LightningType>
+    </Compile>
+    <Compile Include="aura/examplesDetail/examplesDetail.design">
+      <PhysicalRelativePath>src/aura/examplesDetail/examplesDetail.design</PhysicalRelativePath>
+      <SubType>AuraDefinitionBundle</SubType>
+      <BundleName>examplesDetail</BundleName>
+      <LightningType>Design</LightningType>
+    </Compile>
+    <Compile Include="aura/examplesDetail/examplesDetail.svg">
+      <PhysicalRelativePath>src/aura/examplesDetail/examplesDetail.svg</PhysicalRelativePath>
+      <SubType>AuraDefinitionBundle</SubType>
+      <BundleName>examplesDetail</BundleName>
+      <LightningType>SVG</LightningType>
+    </Compile>
+    <Compile Include="aura/examplesDetail/examplesDetailController.js">
+      <PhysicalRelativePath>src/aura/examplesDetail/examplesDetailController.js</PhysicalRelativePath>
+      <SubType>AuraDefinitionBundle</SubType>
+      <BundleName>examplesDetail</BundleName>
+      <LightningType>Controller</LightningType>
+    </Compile>
+    <Compile Include="aura/examplesDetail/examplesDetailHelper.js">
+      <PhysicalRelativePath>src/aura/examplesDetail/examplesDetailHelper.js</PhysicalRelativePath>
+      <SubType>AuraDefinitionBundle</SubType>
+      <BundleName>examplesDetail</BundleName>
+      <LightningType>Helper</LightningType>
+    </Compile>
+    <Compile Include="aura/examplesDetail/examplesDetailRenderer.js">
+      <PhysicalRelativePath>src/aura/examplesDetail/examplesDetailRenderer.js</PhysicalRelativePath>
+      <SubType>AuraDefinitionBundle</SubType>
+      <BundleName>examplesDetail</BundleName>
+      <LightningType>Renderer</LightningType>
+    </Compile>
+    <Compile Include="aura/Lightning_Flow_Tiles/Lightning_Flow_Tiles.auradoc">
+      <PhysicalRelativePath>src/aura/Lightning_Flow_Tiles/Lightning_Flow_Tiles.auradoc</PhysicalRelativePath>
+      <SubType>AuraDefinitionBundle</SubType>
+      <BundleName>Lightning_Flow_Tiles</BundleName>
+      <LightningType>Documentation</LightningType>
+    </Compile>
+    <Compile Include="aura/Lightning_Flow_Tiles/Lightning_Flow_Tiles.cmp">
+      <PhysicalRelativePath>src/aura/Lightning_Flow_Tiles/Lightning_Flow_Tiles.cmp</PhysicalRelativePath>
+      <SubType>AuraDefinitionBundle</SubType>
+      <BundleName>Lightning_Flow_Tiles</BundleName>
+      <LightningType>Component</LightningType>
+    </Compile>
+    <Compile Include="aura/Lightning_Flow_Tiles/Lightning_Flow_Tiles.css">
+      <PhysicalRelativePath>src/aura/Lightning_Flow_Tiles/Lightning_Flow_Tiles.css</PhysicalRelativePath>
+      <SubType>AuraDefinitionBundle</SubType>
+      <BundleName>Lightning_Flow_Tiles</BundleName>
+      <LightningType>Style</LightningType>
+    </Compile>
+    <Compile Include="aura/Lightning_Flow_Tiles/Lightning_Flow_Tiles.design">
+      <PhysicalRelativePath>src/aura/Lightning_Flow_Tiles/Lightning_Flow_Tiles.design</PhysicalRelativePath>
+      <SubType>AuraDefinitionBundle</SubType>
+      <BundleName>Lightning_Flow_Tiles</BundleName>
+      <LightningType>Design</LightningType>
+    </Compile>
+    <Compile Include="aura/Lightning_Flow_Tiles/Lightning_Flow_TilesController.js">
+      <PhysicalRelativePath>src/aura/Lightning_Flow_Tiles/Lightning_Flow_TilesController.js</PhysicalRelativePath>
+      <SubType>AuraDefinitionBundle</SubType>
+      <BundleName>Lightning_Flow_Tiles</BundleName>
+      <LightningType>Controller</LightningType>
+    </Compile>
+    <Compile Include="aura/Lightning_Flow_Tiles/Lightning_Flow_TilesHelper.js">
+      <PhysicalRelativePath>src/aura/Lightning_Flow_Tiles/Lightning_Flow_TilesHelper.js</PhysicalRelativePath>
+      <SubType>AuraDefinitionBundle</SubType>
+      <BundleName>Lightning_Flow_Tiles</BundleName>
+      <LightningType>Helper</LightningType>
+    </Compile>
+    <Compile Include="aura/Lightning_Flow_Tiles/Lightning_Flow_TilesRenderer.js">
+      <PhysicalRelativePath>src/aura/Lightning_Flow_Tiles/Lightning_Flow_TilesRenderer.js</PhysicalRelativePath>
+      <SubType>AuraDefinitionBundle</SubType>
+      <BundleName>Lightning_Flow_Tiles</BundleName>
+      <LightningType>Renderer</LightningType>
+    </Compile>
+    <Compile Include="aura/scriptDisplayFSC/scriptDisplayFSC.auradoc">
+      <PhysicalRelativePath>src/aura/scriptDisplayFSC/scriptDisplayFSC.auradoc</PhysicalRelativePath>
+      <SubType>AuraDefinitionBundle</SubType>
+      <BundleName>scriptDisplayFSC</BundleName>
+      <LightningType>Documentation</LightningType>
+    </Compile>
+    <Compile Include="aura/scriptDisplayFSC/scriptDisplayFSC.cmp">
+      <PhysicalRelativePath>src/aura/scriptDisplayFSC/scriptDisplayFSC.cmp</PhysicalRelativePath>
+      <SubType>AuraDefinitionBundle</SubType>
+      <BundleName>scriptDisplayFSC</BundleName>
+      <LightningType>Component</LightningType>
+    </Compile>
+    <Compile Include="aura/scriptDisplayFSC/scriptDisplayFSC.css">
+      <PhysicalRelativePath>src/aura/scriptDisplayFSC/scriptDisplayFSC.css</PhysicalRelativePath>
+      <SubType>AuraDefinitionBundle</SubType>
+      <BundleName>scriptDisplayFSC</BundleName>
+      <LightningType>Style</LightningType>
+    </Compile>
+    <Compile Include="aura/scriptDisplayFSC/scriptDisplayFSC.design">
+      <PhysicalRelativePath>src/aura/scriptDisplayFSC/scriptDisplayFSC.design</PhysicalRelativePath>
+      <SubType>AuraDefinitionBundle</SubType>
+      <BundleName>scriptDisplayFSC</BundleName>
+      <LightningType>Design</LightningType>
+    </Compile>
+    <Compile Include="aura/scriptDisplayFSC/scriptDisplayFSC.svg">
+      <PhysicalRelativePath>src/aura/scriptDisplayFSC/scriptDisplayFSC.svg</PhysicalRelativePath>
+      <SubType>AuraDefinitionBundle</SubType>
+      <BundleName>scriptDisplayFSC</BundleName>
+      <LightningType>SVG</LightningType>
+    </Compile>
+    <Compile Include="aura/scriptDisplayFSC/scriptDisplayFSCController.js">
+      <PhysicalRelativePath>src/aura/scriptDisplayFSC/scriptDisplayFSCController.js</PhysicalRelativePath>
+      <SubType>AuraDefinitionBundle</SubType>
+      <BundleName>scriptDisplayFSC</BundleName>
+      <LightningType>Controller</LightningType>
+    </Compile>
+    <Compile Include="aura/scriptDisplayFSC/scriptDisplayFSCHelper.js">
+      <PhysicalRelativePath>src/aura/scriptDisplayFSC/scriptDisplayFSCHelper.js</PhysicalRelativePath>
+      <SubType>AuraDefinitionBundle</SubType>
+      <BundleName>scriptDisplayFSC</BundleName>
+      <LightningType>Helper</LightningType>
+    </Compile>
+    <Compile Include="aura/scriptDisplayFSC/scriptDisplayFSCRenderer.js">
+      <PhysicalRelativePath>src/aura/scriptDisplayFSC/scriptDisplayFSCRenderer.js</PhysicalRelativePath>
+      <SubType>AuraDefinitionBundle</SubType>
+      <BundleName>scriptDisplayFSC</BundleName>
+      <LightningType>Renderer</LightningType>
+    </Compile>
+    <Compile Include="aura/scriptDisplayFSCsuccess/scriptDisplayFSCsuccess.cmp">
+      <PhysicalRelativePath>src/aura/scriptDisplayFSCsuccess/scriptDisplayFSCsuccess.cmp</PhysicalRelativePath>
+      <SubType>AuraDefinitionBundle</SubType>
+      <BundleName>scriptDisplayFSCsuccess</BundleName>
+      <LightningType>Component</LightningType>
+    </Compile>
+    <Compile Include="aura/scriptDisplayFSCsuccess/scriptDisplayFSCsuccess.css">
+      <PhysicalRelativePath>src/aura/scriptDisplayFSCsuccess/scriptDisplayFSCsuccess.css</PhysicalRelativePath>
+      <SubType>AuraDefinitionBundle</SubType>
+      <BundleName>scriptDisplayFSCsuccess</BundleName>
+      <LightningType>Style</LightningType>
+    </Compile>
+    <Compile Include="aura/scriptDisplayFSCsuccess/scriptDisplayFSCsuccessController.js">
+      <PhysicalRelativePath>src/aura/scriptDisplayFSCsuccess/scriptDisplayFSCsuccessController.js</PhysicalRelativePath>
+      <SubType>AuraDefinitionBundle</SubType>
+      <BundleName>scriptDisplayFSCsuccess</BundleName>
+      <LightningType>Controller</LightningType>
+    </Compile>
+    <Compile Include="aura/ShelfScanCompleted/ShelfScanCompleted.evt">
+      <PhysicalRelativePath>src/aura/ShelfScanCompleted/ShelfScanCompleted.evt</PhysicalRelativePath>
+      <SubType>AuraDefinitionBundle</SubType>
+      <BundleName>ShelfScanCompleted</BundleName>
+      <LightningType>Event</LightningType>
+    </Compile>
+    <Compile Include="classes/EinsteinAI_JWT.cls">
+      <PhysicalRelativePath>src/classes/EinsteinAI_JWT.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/EinsteinAI_JWTBearerFlow.cls">
+      <PhysicalRelativePath>src/classes/EinsteinAI_JWTBearerFlow.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/EinsteinVision_Admin.cls">
+      <PhysicalRelativePath>src/classes/EinsteinVision_Admin.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/EinsteinVision_ApiUsage.cls">
+      <PhysicalRelativePath>src/classes/EinsteinVision_ApiUsage.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/EinsteinVision_Dataset.cls">
+      <PhysicalRelativePath>src/classes/EinsteinVision_Dataset.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/EinsteinVision_EpochResult.cls">
+      <PhysicalRelativePath>src/classes/EinsteinVision_EpochResult.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/EinsteinVision_Example.cls">
+      <PhysicalRelativePath>src/classes/EinsteinVision_Example.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/EinsteinVision_HttpBodyPart.cls">
+      <PhysicalRelativePath>src/classes/EinsteinVision_HttpBodyPart.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/EinsteinVision_HttpBodyPartDataset.cls">
+      <PhysicalRelativePath>src/classes/EinsteinVision_HttpBodyPartDataset.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/EinsteinVision_HttpBodyPartDatasetUrl.cls">
+      <PhysicalRelativePath>src/classes/EinsteinVision_HttpBodyPartDatasetUrl.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/EinsteinVision_HttpBodyPartExample.cls">
+      <PhysicalRelativePath>src/classes/EinsteinVision_HttpBodyPartExample.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/EinsteinVision_HttpBodyPartLabel.cls">
+      <PhysicalRelativePath>src/classes/EinsteinVision_HttpBodyPartLabel.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/EinsteinVision_HttpBodyPartPrediction.cls">
+      <PhysicalRelativePath>src/classes/EinsteinVision_HttpBodyPartPrediction.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/EinsteinVision_HttpBodyPartTraining.cls">
+      <PhysicalRelativePath>src/classes/EinsteinVision_HttpBodyPartTraining.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/EinsteinVision_HttpClient.cls">
+      <PhysicalRelativePath>src/classes/EinsteinVision_HttpClient.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/EinsteinVision_Label.cls">
+      <PhysicalRelativePath>src/classes/EinsteinVision_Label.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/EinsteinVision_LabelSummary.cls">
+      <PhysicalRelativePath>src/classes/EinsteinVision_LabelSummary.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/EinsteinVision_Model.cls">
+      <PhysicalRelativePath>src/classes/EinsteinVision_Model.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/EinsteinVision_ModelLearningCurve.cls">
+      <PhysicalRelativePath>src/classes/EinsteinVision_ModelLearningCurve.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/EinsteinVision_ModelMetrics.cls">
+      <PhysicalRelativePath>src/classes/EinsteinVision_ModelMetrics.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/EinsteinVision_NoValuesException.cls">
+      <PhysicalRelativePath>src/classes/EinsteinVision_NoValuesException.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/EinsteinVision_NullPointerException.cls">
+      <PhysicalRelativePath>src/classes/EinsteinVision_NullPointerException.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/EinsteinVision_NumberTooBigException.cls">
+      <PhysicalRelativePath>src/classes/EinsteinVision_NumberTooBigException.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/EinsteinVision_NumberTooSmallException.cls">
+      <PhysicalRelativePath>src/classes/EinsteinVision_NumberTooSmallException.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/EinsteinVision_PlanData.cls">
+      <PhysicalRelativePath>src/classes/EinsteinVision_PlanData.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/EinsteinVision_PredictionResult.cls">
+      <PhysicalRelativePath>src/classes/EinsteinVision_PredictionResult.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/EinsteinVision_PredictionService.cls">
+      <PhysicalRelativePath>src/classes/EinsteinVision_PredictionService.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/EinsteinVision_Probability.cls">
+      <PhysicalRelativePath>src/classes/EinsteinVision_Probability.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/EinsteinVision_StringIsEmptyException.cls">
+      <PhysicalRelativePath>src/classes/EinsteinVision_StringIsEmptyException.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/EinsteinVision_StringTooLongException.cls">
+      <PhysicalRelativePath>src/classes/EinsteinVision_StringTooLongException.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/EinsteinVision_TooManyValuesException.cls">
+      <PhysicalRelativePath>src/classes/EinsteinVision_TooManyValuesException.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/EinsteinVision_UI_Demo.cls">
+      <PhysicalRelativePath>src/classes/EinsteinVision_UI_Demo.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/Test_EinsteinVision.cls">
+      <PhysicalRelativePath>src/classes/Test_EinsteinVision.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/Test_EinsteinVision_Admin.cls">
+      <PhysicalRelativePath>src/classes/Test_EinsteinVision_Admin.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/Test_EinsteinVision_HttpMockResponses.cls">
+      <PhysicalRelativePath>src/classes/Test_EinsteinVision_HttpMockResponses.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="classes/Pill_TH.cls">
+      <MetadataType>ApexClass</MetadataType>
+      <SubType>Class</SubType>
+      <PhysicalRelativePath>src/classes/Pill_TH.cls</PhysicalRelativePath>
+    </Compile>
+    <Compile Include="triggers/PillTrigger.trigger">
+      <MetadataType>ApexTrigger</MetadataType>
+      <SubType>Trigger</SubType>
+      <PhysicalRelativePath>src/triggers/PillTrigger.trigger</PhysicalRelativePath>
+    </Compile>
+    <Compile Include="classes/Event_TH.cls">
+      <MetadataType>ApexClass</MetadataType>
+      <SubType>Class</SubType>
+      <PhysicalRelativePath>src/classes/Event_TH.cls</PhysicalRelativePath>
+    </Compile>
+    <Compile Include="triggers/EventTrigger.trigger">
+      <MetadataType>ApexTrigger</MetadataType>
+      <SubType>Trigger</SubType>
+      <PhysicalRelativePath>src/triggers/EventTrigger.trigger</PhysicalRelativePath>
+    </Compile>
+    <Compile Include="classes/My_Prescription_TH.cls">
+      <MetadataType>ApexClass</MetadataType>
+      <SubType>Class</SubType>
+      <PhysicalRelativePath>src/classes/My_Prescription_TH.cls</PhysicalRelativePath>
+    </Compile>
+    <Compile Include="triggers/My_PrescriptionTrigger.trigger">
+      <MetadataType>ApexTrigger</MetadataType>
+      <SubType>Trigger</SubType>
+      <PhysicalRelativePath>src/triggers/My_PrescriptionTrigger.trigger</PhysicalRelativePath>
+    </Compile>
+    <Compile Include="classes/PillTrigger_TEST.cls">
+      <MetadataType>ApexClass</MetadataType>
+      <SubType>Class</SubType>
+      <PhysicalRelativePath>src/classes/PillTrigger_TEST.cls</PhysicalRelativePath>
+    </Compile>
+    <Compile Include="classes/TestHelper.cls">
+      <MetadataType>ApexClass</MetadataType>
+      <SubType>Class</SubType>
+      <PhysicalRelativePath>src/classes/TestHelper.cls</PhysicalRelativePath>
+    </Compile>
+    <Compile Include="classes/TestHelper_TEST.cls">
+      <MetadataType>ApexClass</MetadataType>
+      <SubType>Class</SubType>
+      <PhysicalRelativePath>src/classes/TestHelper_TEST.cls</PhysicalRelativePath>
+    </Compile>
+    <Compile Include="classes/My_PrescriptionTrigger_TEST.cls">
+      <MetadataType>ApexClass</MetadataType>
+      <SubType>Class</SubType>
+      <PhysicalRelativePath>src/classes/My_PrescriptionTrigger_TEST.cls</PhysicalRelativePath>
+    </Compile>
+    <Compile Include="classes/EventTrigger_TEST.cls">
+      <MetadataType>ApexClass</MetadataType>
+      <SubType>Class</SubType>
+      <PhysicalRelativePath>src/classes/EventTrigger_TEST.cls</PhysicalRelativePath>
+    </Compile>
+    <Compile Include="classes/EinsteinVision_NumberTooBigExcepti_TEST.cls">
+      <MetadataType>ApexClass</MetadataType>
+      <SubType>Class</SubType>
+      <PhysicalRelativePath>src/classes/EinsteinVision_NumberTooBigExcepti_TEST.cls</PhysicalRelativePath>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="objects/EinsteinAI_Settings__c.object">
+      <PhysicalRelativePath>src/objects/EinsteinAI_Settings__c.object</PhysicalRelativePath>
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="objects/Einstein_Settings__c.object">
+      <PhysicalRelativePath>src/objects/Einstein_Settings__c.object</PhysicalRelativePath>
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="objects/Formulary_Association__c.object">
+      <PhysicalRelativePath>src/objects/Formulary_Association__c.object</PhysicalRelativePath>
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="objects/Insured_Item__c.object">
+      <PhysicalRelativePath>src/objects/Insured_Item__c.object</PhysicalRelativePath>
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="objects/My_Formulary__c.object">
+      <PhysicalRelativePath>src/objects/My_Formulary__c.object</PhysicalRelativePath>
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="objects/My_Prescription__c.object">
+      <PhysicalRelativePath>src/objects/My_Prescription__c.object</PhysicalRelativePath>
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="objects/Pill__c.object">
+      <PhysicalRelativePath>src/objects/Pill__c.object</PhysicalRelativePath>
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="applications/standard__AppLauncher.app">
+      <MetadataType>CustomApplication</MetadataType>
+      <SubType>CustomApplication</SubType>
+      <PhysicalRelativePath>src/applications/standard__AppLauncher.app</PhysicalRelativePath>
+    </Object>
+    <Object Include="applications/standard__Insights.app">
+      <MetadataType>CustomApplication</MetadataType>
+      <SubType>CustomApplication</SubType>
+      <PhysicalRelativePath>src/applications/standard__Insights.app</PhysicalRelativePath>
+    </Object>
+    <Object Include="applications/standard__Sites.app">
+      <MetadataType>CustomApplication</MetadataType>
+      <SubType>CustomApplication</SubType>
+      <PhysicalRelativePath>src/applications/standard__Sites.app</PhysicalRelativePath>
+    </Object>
+    <Object Include="applications/standard__Community.app">
+      <MetadataType>CustomApplication</MetadataType>
+      <SubType>CustomApplication</SubType>
+      <PhysicalRelativePath>src/applications/standard__Community.app</PhysicalRelativePath>
+    </Object>
+    <Object Include="applications/standard__ServiceConsole.app">
+      <MetadataType>CustomApplication</MetadataType>
+      <SubType>CustomApplication</SubType>
+      <PhysicalRelativePath>src/applications/standard__ServiceConsole.app</PhysicalRelativePath>
+    </Object>
+    <Object Include="applications/standard__Marketing.app">
+      <MetadataType>CustomApplication</MetadataType>
+      <SubType>CustomApplication</SubType>
+      <PhysicalRelativePath>src/applications/standard__Marketing.app</PhysicalRelativePath>
+    </Object>
+    <Object Include="applications/standard__LightningService.app">
+      <MetadataType>CustomApplication</MetadataType>
+      <SubType>CustomApplication</SubType>
+      <PhysicalRelativePath>src/applications/standard__LightningService.app</PhysicalRelativePath>
+    </Object>
+    <Object Include="applications/standard__LightningSales.app">
+      <MetadataType>CustomApplication</MetadataType>
+      <SubType>CustomApplication</SubType>
+      <PhysicalRelativePath>src/applications/standard__LightningSales.app</PhysicalRelativePath>
+    </Object>
+    <Object Include="applications/My_Pills.app">
+      <MetadataType>CustomApplication</MetadataType>
+      <SubType>CustomApplication</SubType>
+      <PhysicalRelativePath>src/applications/My_Pills.app</PhysicalRelativePath>
+    </Object>
+    <Object Include="applications/standard__LightningSalesConsole.app">
+      <MetadataType>CustomApplication</MetadataType>
+      <SubType>CustomApplication</SubType>
+      <PhysicalRelativePath>src/applications/standard__LightningSalesConsole.app</PhysicalRelativePath>
+    </Object>
+    <Object Include="applications/standard__Chatter.app">
+      <MetadataType>CustomApplication</MetadataType>
+      <SubType>CustomApplication</SubType>
+      <PhysicalRelativePath>src/applications/standard__Chatter.app</PhysicalRelativePath>
+    </Object>
+    <Object Include="applications/standard__LightningBolt.app">
+      <MetadataType>CustomApplication</MetadataType>
+      <SubType>CustomApplication</SubType>
+      <PhysicalRelativePath>src/applications/standard__LightningBolt.app</PhysicalRelativePath>
+    </Object>
+    <Object Include="applications/standard__LightningInstrumentation.app">
+      <MetadataType>CustomApplication</MetadataType>
+      <SubType>CustomApplication</SubType>
+      <PhysicalRelativePath>src/applications/standard__LightningInstrumentation.app</PhysicalRelativePath>
+    </Object>
+    <Object Include="applications/standard__Sales.app">
+      <MetadataType>CustomApplication</MetadataType>
+      <SubType>CustomApplication</SubType>
+      <PhysicalRelativePath>src/applications/standard__Sales.app</PhysicalRelativePath>
+    </Object>
+    <Object Include="applications/standard__Service.app">
+      <MetadataType>CustomApplication</MetadataType>
+      <SubType>CustomApplication</SubType>
+      <PhysicalRelativePath>src/applications/standard__Service.app</PhysicalRelativePath>
+    </Object>
+    <Object Include="applications/standard__Platform.app">
+      <MetadataType>CustomApplication</MetadataType>
+      <SubType>CustomApplication</SubType>
+      <PhysicalRelativePath>src/applications/standard__Platform.app</PhysicalRelativePath>
+    </Object>
+    <Object Include="applications/standard__Content.app">
+      <MetadataType>CustomApplication</MetadataType>
+      <SubType>CustomApplication</SubType>
+      <PhysicalRelativePath>src/applications/standard__Content.app</PhysicalRelativePath>
+    </Object>
+    <Object Include="objects/Account.object">
+      <MetadataType>CustomObject</MetadataType>
+      <SubType>Object</SubType>
+      <PhysicalRelativePath>src/objects/Account.object</PhysicalRelativePath>
+    </Object>
+    <Object Include="objects/Task.object">
+      <MetadataType>CustomObject</MetadataType>
+      <SubType>Object</SubType>
+      <PhysicalRelativePath>src/objects/Task.object</PhysicalRelativePath>
+    </Object>
+    <Object Include="objects/CollaborationGroup.object">
+      <MetadataType>CustomObject</MetadataType>
+      <SubType>Object</SubType>
+      <PhysicalRelativePath>src/objects/CollaborationGroup.object</PhysicalRelativePath>
+    </Object>
+    <Object Include="objects/OpportunityLineItem.object">
+      <MetadataType>CustomObject</MetadataType>
+      <SubType>Object</SubType>
+      <PhysicalRelativePath>src/objects/OpportunityLineItem.object</PhysicalRelativePath>
+    </Object>
+    <Object Include="objects/ForecastingCategoryMapping.object">
+      <MetadataType>CustomObject</MetadataType>
+      <SubType>Object</SubType>
+      <PhysicalRelativePath>src/objects/ForecastingCategoryMapping.object</PhysicalRelativePath>
+    </Object>
+    <Object Include="objects/CaseContactRole.object">
+      <MetadataType>CustomObject</MetadataType>
+      <SubType>Object</SubType>
+      <PhysicalRelativePath>src/objects/CaseContactRole.object</PhysicalRelativePath>
+    </Object>
+    <Object Include="objects/Activity.object">
+      <MetadataType>CustomObject</MetadataType>
+      <SubType>Object</SubType>
+      <PhysicalRelativePath>src/objects/Activity.object</PhysicalRelativePath>
+    </Object>
+    <Object Include="objects/ChannelProgram.object">
+      <MetadataType>CustomObject</MetadataType>
+      <SubType>Object</SubType>
+      <PhysicalRelativePath>src/objects/ChannelProgram.object</PhysicalRelativePath>
+    </Object>
+    <Object Include="objects/ContactCleanInfo.object">
+      <MetadataType>CustomObject</MetadataType>
+      <SubType>Object</SubType>
+      <PhysicalRelativePath>src/objects/ContactCleanInfo.object</PhysicalRelativePath>
+    </Object>
+    <Object Include="objects/ScorecardMetric.object">
+      <MetadataType>CustomObject</MetadataType>
+      <SubType>Object</SubType>
+      <PhysicalRelativePath>src/objects/ScorecardMetric.object</PhysicalRelativePath>
+    </Object>
+    <Object Include="objects/PartnerFundAllocation.object">
+      <MetadataType>CustomObject</MetadataType>
+      <SubType>Object</SubType>
+      <PhysicalRelativePath>src/objects/PartnerFundAllocation.object</PhysicalRelativePath>
+    </Object>
+    <Object Include="objects/FeedItem.object">
+      <MetadataType>CustomObject</MetadataType>
+      <SubType>Object</SubType>
+      <PhysicalRelativePath>src/objects/FeedItem.object</PhysicalRelativePath>
+    </Object>
+    <Object Include="objects/ContractContactRole.object">
+      <MetadataType>CustomObject</MetadataType>
+      <SubType>Object</SubType>
+      <PhysicalRelativePath>src/objects/ContractContactRole.object</PhysicalRelativePath>
+    </Object>
+    <Object Include="objects/ExchangeUserMapping.object">
+      <MetadataType>CustomObject</MetadataType>
+      <SubType>Object</SubType>
+      <PhysicalRelativePath>src/objects/ExchangeUserMapping.object</PhysicalRelativePath>
+    </Object>
+    <Object Include="objects/SocialPersona.object">
+      <MetadataType>CustomObject</MetadataType>
+      <SubType>Object</SubType>
+      <PhysicalRelativePath>src/objects/SocialPersona.object</PhysicalRelativePath>
+    </Object>
+    <Object Include="objects/Asset.object">
+      <MetadataType>CustomObject</MetadataType>
+      <SubType>Object</SubType>
+      <PhysicalRelativePath>src/objects/Asset.object</PhysicalRelativePath>
+    </Object>
+    <Object Include="objects/CampaignMember.object">
+      <MetadataType>CustomObject</MetadataType>
+      <SubType>Object</SubType>
+      <PhysicalRelativePath>src/objects/CampaignMember.object</PhysicalRelativePath>
+    </Object>
+    <Object Include="objects/PartnerFundClaim.object">
+      <MetadataType>CustomObject</MetadataType>
+      <SubType>Object</SubType>
+      <PhysicalRelativePath>src/objects/PartnerFundClaim.object</PhysicalRelativePath>
+    </Object>
+    <Object Include="objects/Order.object">
+      <MetadataType>CustomObject</MetadataType>
+      <SubType>Object</SubType>
+      <PhysicalRelativePath>src/objects/Order.object</PhysicalRelativePath>
+    </Object>
+    <Object Include="objects/CollaborationGroupMember.object">
+      <MetadataType>CustomObject</MetadataType>
+      <SubType>Object</SubType>
+      <PhysicalRelativePath>src/objects/CollaborationGroupMember.object</PhysicalRelativePath>
+    </Object>
+    <Object Include="objects/StreamingChannel.object">
+      <MetadataType>CustomObject</MetadataType>
+      <SubType>Object</SubType>
+      <PhysicalRelativePath>src/objects/StreamingChannel.object</PhysicalRelativePath>
+    </Object>
+    <Object Include="objects/AccountContactRole.object">
+      <MetadataType>CustomObject</MetadataType>
+      <SubType>Object</SubType>
+      <PhysicalRelativePath>src/objects/AccountContactRole.object</PhysicalRelativePath>
+    </Object>
+    <Object Include="objects/EmailMessage.object">
+      <MetadataType>CustomObject</MetadataType>
+      <SubType>Object</SubType>
+      <PhysicalRelativePath>src/objects/EmailMessage.object</PhysicalRelativePath>
+    </Object>
+    <Object Include="objects/AccountCleanInfo.object">
+      <MetadataType>CustomObject</MetadataType>
+      <SubType>Object</SubType>
+      <PhysicalRelativePath>src/objects/AccountCleanInfo.object</PhysicalRelativePath>
+    </Object>
+    <Object Include="objects/Pricebook2.object">
+      <MetadataType>CustomObject</MetadataType>
+      <SubType>Object</SubType>
+      <PhysicalRelativePath>src/objects/Pricebook2.object</PhysicalRelativePath>
+    </Object>
+    <Object Include="objects/UserProvisioningRequest.object">
+      <MetadataType>CustomObject</MetadataType>
+      <SubType>Object</SubType>
+      <PhysicalRelativePath>src/objects/UserProvisioningRequest.object</PhysicalRelativePath>
+    </Object>
+    <Object Include="objects/PartnerFundRequest.object">
+      <MetadataType>CustomObject</MetadataType>
+      <SubType>Object</SubType>
+      <PhysicalRelativePath>src/objects/PartnerFundRequest.object</PhysicalRelativePath>
+    </Object>
+    <Object Include="objects/PricebookEntry.object">
+      <MetadataType>CustomObject</MetadataType>
+      <SubType>Object</SubType>
+      <PhysicalRelativePath>src/objects/PricebookEntry.object</PhysicalRelativePath>
+    </Object>
+    <Object Include="objects/OrgDeleteRequest.object">
+      <MetadataType>CustomObject</MetadataType>
+      <SubType>Object</SubType>
+      <PhysicalRelativePath>src/objects/OrgDeleteRequest.object</PhysicalRelativePath>
+    </Object>
+    <Object Include="objects/LeadCleanInfo.object">
+      <MetadataType>CustomObject</MetadataType>
+      <SubType>Object</SubType>
+      <PhysicalRelativePath>src/objects/LeadCleanInfo.object</PhysicalRelativePath>
+    </Object>
+    <Object Include="objects/Campaign.object">
+      <MetadataType>CustomObject</MetadataType>
+      <SubType>Object</SubType>
+      <PhysicalRelativePath>src/objects/Campaign.object</PhysicalRelativePath>
+    </Object>
+    <Object Include="objects/Idea.object">
+      <MetadataType>CustomObject</MetadataType>
+      <SubType>Object</SubType>
+      <PhysicalRelativePath>src/objects/Idea.object</PhysicalRelativePath>
+    </Object>
+    <Object Include="objects/Contract.object">
+      <MetadataType>CustomObject</MetadataType>
+      <SubType>Object</SubType>
+      <PhysicalRelativePath>src/objects/Contract.object</PhysicalRelativePath>
+    </Object>
+    <Object Include="objects/ScorecardAssociation.object">
+      <MetadataType>CustomObject</MetadataType>
+      <SubType>Object</SubType>
+      <PhysicalRelativePath>src/objects/ScorecardAssociation.object</PhysicalRelativePath>
+    </Object>
+    <Object Include="objects/OpportunityCompetitor.object">
+      <MetadataType>CustomObject</MetadataType>
+      <SubType>Object</SubType>
+      <PhysicalRelativePath>src/objects/OpportunityCompetitor.object</PhysicalRelativePath>
+    </Object>
+    <Object Include="objects/PartnerRole.object">
+      <MetadataType>CustomObject</MetadataType>
+      <SubType>Object</SubType>
+      <PhysicalRelativePath>src/objects/PartnerRole.object</PhysicalRelativePath>
+    </Object>
+    <Object Include="objects/MacroAction.object">
+      <MetadataType>CustomObject</MetadataType>
+      <SubType>Object</SubType>
+      <PhysicalRelativePath>src/objects/MacroAction.object</PhysicalRelativePath>
+    </Object>
+    <Object Include="objects/Site.object">
+      <MetadataType>CustomObject</MetadataType>
+      <SubType>Object</SubType>
+      <PhysicalRelativePath>src/objects/Site.object</PhysicalRelativePath>
+    </Object>
+    <Object Include="objects/User.object">
+      <MetadataType>CustomObject</MetadataType>
+      <SubType>Object</SubType>
+      <PhysicalRelativePath>src/objects/User.object</PhysicalRelativePath>
+    </Object>
+    <Object Include="objects/AccountBrand.object">
+      <MetadataType>CustomObject</MetadataType>
+      <SubType>Object</SubType>
+      <PhysicalRelativePath>src/objects/AccountBrand.object</PhysicalRelativePath>
+    </Object>
+    <Object Include="objects/Product2.object">
+      <MetadataType>CustomObject</MetadataType>
+      <SubType>Object</SubType>
+      <PhysicalRelativePath>src/objects/Product2.object</PhysicalRelativePath>
+    </Object>
+    <Object Include="objects/Macro.object">
+      <MetadataType>CustomObject</MetadataType>
+      <SubType>Object</SubType>
+      <PhysicalRelativePath>src/objects/Macro.object</PhysicalRelativePath>
+    </Object>
+    <Object Include="objects/PartnerMarketingBudget.object">
+      <MetadataType>CustomObject</MetadataType>
+      <SubType>Object</SubType>
+      <PhysicalRelativePath>src/objects/PartnerMarketingBudget.object</PhysicalRelativePath>
+    </Object>
+    <Object Include="objects/MacroInstruction.object">
+      <MetadataType>CustomObject</MetadataType>
+      <SubType>Object</SubType>
+      <PhysicalRelativePath>src/objects/MacroInstruction.object</PhysicalRelativePath>
+    </Object>
+    <Object Include="objects/DuplicateRecordItem.object">
+      <MetadataType>CustomObject</MetadataType>
+      <SubType>Object</SubType>
+      <PhysicalRelativePath>src/objects/DuplicateRecordItem.object</PhysicalRelativePath>
+    </Object>
+    <Object Include="objects/Case.object">
+      <MetadataType>CustomObject</MetadataType>
+      <SubType>Object</SubType>
+      <PhysicalRelativePath>src/objects/Case.object</PhysicalRelativePath>
+    </Object>
+    <Object Include="objects/NetworkMember.object">
+      <MetadataType>CustomObject</MetadataType>
+      <SubType>Object</SubType>
+      <PhysicalRelativePath>src/objects/NetworkMember.object</PhysicalRelativePath>
+    </Object>
+    <Object Include="objects/ContentVersion.object">
+      <MetadataType>CustomObject</MetadataType>
+      <SubType>Object</SubType>
+      <PhysicalRelativePath>src/objects/ContentVersion.object</PhysicalRelativePath>
+    </Object>
+    <Object Include="objects/Opportunity.object">
+      <MetadataType>CustomObject</MetadataType>
+      <SubType>Object</SubType>
+      <PhysicalRelativePath>src/objects/Opportunity.object</PhysicalRelativePath>
+    </Object>
+    <Object Include="objects/Lead.object">
+      <MetadataType>CustomObject</MetadataType>
+      <SubType>Object</SubType>
+      <PhysicalRelativePath>src/objects/Lead.object</PhysicalRelativePath>
+    </Object>
+    <Object Include="objects/DuplicateRecordSet.object">
+      <MetadataType>CustomObject</MetadataType>
+      <SubType>Object</SubType>
+      <PhysicalRelativePath>src/objects/DuplicateRecordSet.object</PhysicalRelativePath>
+    </Object>
+    <Object Include="objects/Scorecard.object">
+      <MetadataType>CustomObject</MetadataType>
+      <SubType>Object</SubType>
+      <PhysicalRelativePath>src/objects/Scorecard.object</PhysicalRelativePath>
+    </Object>
+    <Object Include="objects/Topic.object">
+      <MetadataType>CustomObject</MetadataType>
+      <SubType>Object</SubType>
+      <PhysicalRelativePath>src/objects/Topic.object</PhysicalRelativePath>
+    </Object>
+    <Object Include="objects/Solution.object">
+      <MetadataType>CustomObject</MetadataType>
+      <SubType>Object</SubType>
+      <PhysicalRelativePath>src/objects/Solution.object</PhysicalRelativePath>
+    </Object>
+    <Object Include="objects/StreamActivityAccess.object">
+      <MetadataType>CustomObject</MetadataType>
+      <SubType>Object</SubType>
+      <PhysicalRelativePath>src/objects/StreamActivityAccess.object</PhysicalRelativePath>
+    </Object>
+    <Object Include="objects/QuickText.object">
+      <MetadataType>CustomObject</MetadataType>
+      <SubType>Object</SubType>
+      <PhysicalRelativePath>src/objects/QuickText.object</PhysicalRelativePath>
+    </Object>
+    <Object Include="objects/AssetRelationship.object">
+      <MetadataType>CustomObject</MetadataType>
+      <SubType>Object</SubType>
+      <PhysicalRelativePath>src/objects/AssetRelationship.object</PhysicalRelativePath>
+    </Object>
+    <Object Include="objects/DandBCompany.object">
+      <MetadataType>CustomObject</MetadataType>
+      <SubType>Object</SubType>
+      <PhysicalRelativePath>src/objects/DandBCompany.object</PhysicalRelativePath>
+    </Object>
+    <Object Include="objects/OpportunityContactRole.object">
+      <MetadataType>CustomObject</MetadataType>
+      <SubType>Object</SubType>
+      <PhysicalRelativePath>src/objects/OpportunityContactRole.object</PhysicalRelativePath>
+    </Object>
+    <Object Include="objects/Contact.object">
+      <MetadataType>CustomObject</MetadataType>
+      <SubType>Object</SubType>
+      <PhysicalRelativePath>src/objects/Contact.object</PhysicalRelativePath>
+    </Object>
+    <Object Include="objects/ChannelProgramLevel.object">
+      <MetadataType>CustomObject</MetadataType>
+      <SubType>Object</SubType>
+      <PhysicalRelativePath>src/objects/ChannelProgramLevel.object</PhysicalRelativePath>
+    </Object>
+    <Object Include="objects/RequestsForAccessSIQ.object">
+      <MetadataType>CustomObject</MetadataType>
+      <SubType>Object</SubType>
+      <PhysicalRelativePath>src/objects/RequestsForAccessSIQ.object</PhysicalRelativePath>
+    </Object>
+    <Object Include="objects/OrderItem.object">
+      <MetadataType>CustomObject</MetadataType>
+      <SubType>Object</SubType>
+      <PhysicalRelativePath>src/objects/OrderItem.object</PhysicalRelativePath>
+    </Object>
+    <Object Include="objects/AssistantProgress.object">
+      <MetadataType>CustomObject</MetadataType>
+      <SubType>Object</SubType>
+      <PhysicalRelativePath>src/objects/AssistantProgress.object</PhysicalRelativePath>
+    </Object>
+    <Object Include="objects/Event.object">
+      <MetadataType>CustomObject</MetadataType>
+      <SubType>Object</SubType>
+      <PhysicalRelativePath>src/objects/Event.object</PhysicalRelativePath>
+    </Object>
+    <Object Include="objects/RecordAction.object">
+      <MetadataType>CustomObject</MetadataType>
+      <SubType>Object</SubType>
+      <PhysicalRelativePath>src/objects/RecordAction.object</PhysicalRelativePath>
+    </Object>
+    <Object Include="objects/TopicAssignment.object">
+      <MetadataType>CustomObject</MetadataType>
+      <SubType>Object</SubType>
+      <PhysicalRelativePath>src/objects/TopicAssignment.object</PhysicalRelativePath>
+    </Object>
+    <Object Include="objects/ChannelProgramMember.object">
+      <MetadataType>CustomObject</MetadataType>
+      <SubType>Object</SubType>
+      <PhysicalRelativePath>src/objects/ChannelProgramMember.object</PhysicalRelativePath>
+    </Object>
+    <Object Include="tabs/My_Prescription__c.tab">
+      <MetadataType>CustomTab</MetadataType>
+      <SubType>CustomTab</SubType>
+      <PhysicalRelativePath>src/tabs/My_Prescription__c.tab</PhysicalRelativePath>
+    </Object>
+    <Object Include="tabs/Insured_Item__c.tab">
+      <MetadataType>CustomTab</MetadataType>
+      <SubType>CustomTab</SubType>
+      <PhysicalRelativePath>src/tabs/Insured_Item__c.tab</PhysicalRelativePath>
+    </Object>
+    <Object Include="tabs/My_Formulary__c.tab">
+      <MetadataType>CustomTab</MetadataType>
+      <SubType>CustomTab</SubType>
+      <PhysicalRelativePath>src/tabs/My_Formulary__c.tab</PhysicalRelativePath>
+    </Object>
+    <Object Include="tabs/Pill__c.tab">
+      <MetadataType>CustomTab</MetadataType>
+      <SubType>CustomTab</SubType>
+      <PhysicalRelativePath>src/tabs/Pill__c.tab</PhysicalRelativePath>
+    </Object>
+    <Object Include="tabs/Einstein_Vision.tab">
+      <MetadataType>CustomTab</MetadataType>
+      <SubType>CustomTab</SubType>
+      <PhysicalRelativePath>src/tabs/Einstein_Vision.tab</PhysicalRelativePath>
+    </Object>
+    <Object Include="tabs/Your_Rxs.tab">
+      <MetadataType>CustomTab</MetadataType>
+      <SubType>CustomTab</SubType>
+      <PhysicalRelativePath>src/tabs/Your_Rxs.tab</PhysicalRelativePath>
+    </Object>
+    <Object Include="tabs/Formulary_Association__c.tab">
+      <MetadataType>CustomTab</MetadataType>
+      <SubType>CustomTab</SubType>
+      <PhysicalRelativePath>src/tabs/Formulary_Association__c.tab</PhysicalRelativePath>
+    </Object>
+    <Object Include="flowDefinitions/Pill_Taker.flowDefinition">
+      <MetadataType>FlowDefinition</MetadataType>
+      <SubType>FlowDefinition</SubType>
+      <PhysicalRelativePath>src/flowDefinitions/Pill_Taker.flowDefinition</PhysicalRelativePath>
+    </Object>
+    <Object Include="layouts/SocialPersona-Social Persona Layout.layout">
+      <MetadataType>Layout</MetadataType>
+      <SubType>Layout</SubType>
+      <PhysicalRelativePath>src/layouts/SocialPersona-Social Persona Layout.layout</PhysicalRelativePath>
+    </Object>
+    <Object Include="layouts/Account-Account %28Marketing%29 Layout.layout">
+      <MetadataType>Layout</MetadataType>
+      <SubType>Layout</SubType>
+      <PhysicalRelativePath>src/layouts/Account-Account %28Marketing%29 Layout.layout</PhysicalRelativePath>
+    </Object>
+    <Object Include="layouts/Account-Account %28Sales%29 Layout.layout">
+      <MetadataType>Layout</MetadataType>
+      <SubType>Layout</SubType>
+      <PhysicalRelativePath>src/layouts/Account-Account %28Sales%29 Layout.layout</PhysicalRelativePath>
+    </Object>
+    <Object Include="layouts/Contact-Contact %28Support%29 Layout.layout">
+      <MetadataType>Layout</MetadataType>
+      <SubType>Layout</SubType>
+      <PhysicalRelativePath>src/layouts/Contact-Contact %28Support%29 Layout.layout</PhysicalRelativePath>
+    </Object>
+    <Object Include="layouts/Contact-Contact Layout.layout">
+      <MetadataType>Layout</MetadataType>
+      <SubType>Layout</SubType>
+      <PhysicalRelativePath>src/layouts/Contact-Contact Layout.layout</PhysicalRelativePath>
+    </Object>
+    <Object Include="layouts/Lead-Lead %28Marketing%29 Layout.layout">
+      <MetadataType>Layout</MetadataType>
+      <SubType>Layout</SubType>
+      <PhysicalRelativePath>src/layouts/Lead-Lead %28Marketing%29 Layout.layout</PhysicalRelativePath>
+    </Object>
+    <Object Include="layouts/Lead-Lead %28Sales%29 Layout.layout">
+      <MetadataType>Layout</MetadataType>
+      <SubType>Layout</SubType>
+      <PhysicalRelativePath>src/layouts/Lead-Lead %28Sales%29 Layout.layout</PhysicalRelativePath>
+    </Object>
+    <Object Include="layouts/Account-Account %28Support%29 Layout.layout">
+      <MetadataType>Layout</MetadataType>
+      <SubType>Layout</SubType>
+      <PhysicalRelativePath>src/layouts/Account-Account %28Support%29 Layout.layout</PhysicalRelativePath>
+    </Object>
+    <Object Include="layouts/Account-Account Layout.layout">
+      <MetadataType>Layout</MetadataType>
+      <SubType>Layout</SubType>
+      <PhysicalRelativePath>src/layouts/Account-Account Layout.layout</PhysicalRelativePath>
+    </Object>
+    <Object Include="layouts/My_Formulary__c-My Formulary Layout.layout">
+      <MetadataType>Layout</MetadataType>
+      <SubType>Layout</SubType>
+      <PhysicalRelativePath>src/layouts/My_Formulary__c-My Formulary Layout.layout</PhysicalRelativePath>
+    </Object>
+    <Object Include="layouts/Opportunity-Opportunity %28Marketing%29 Layout.layout">
+      <MetadataType>Layout</MetadataType>
+      <SubType>Layout</SubType>
+      <PhysicalRelativePath>src/layouts/Opportunity-Opportunity %28Marketing%29 Layout.layout</PhysicalRelativePath>
+    </Object>
+    <Object Include="layouts/Opportunity-Opportunity %28Sales%29 Layout.layout">
+      <MetadataType>Layout</MetadataType>
+      <SubType>Layout</SubType>
+      <PhysicalRelativePath>src/layouts/Opportunity-Opportunity %28Sales%29 Layout.layout</PhysicalRelativePath>
+    </Object>
+    <Object Include="layouts/Case-Case %28Support%29 Layout.layout">
+      <MetadataType>Layout</MetadataType>
+      <SubType>Layout</SubType>
+      <PhysicalRelativePath>src/layouts/Case-Case %28Support%29 Layout.layout</PhysicalRelativePath>
+    </Object>
+    <Object Include="layouts/Case-Case Layout.layout">
+      <MetadataType>Layout</MetadataType>
+      <SubType>Layout</SubType>
+      <PhysicalRelativePath>src/layouts/Case-Case Layout.layout</PhysicalRelativePath>
+    </Object>
+    <Object Include="layouts/Contact-Contact %28Marketing%29 Layout.layout">
+      <MetadataType>Layout</MetadataType>
+      <SubType>Layout</SubType>
+      <PhysicalRelativePath>src/layouts/Contact-Contact %28Marketing%29 Layout.layout</PhysicalRelativePath>
+    </Object>
+    <Object Include="layouts/QuickText-Quick Text Layout.layout">
+      <MetadataType>Layout</MetadataType>
+      <SubType>Layout</SubType>
+      <PhysicalRelativePath>src/layouts/QuickText-Quick Text Layout.layout</PhysicalRelativePath>
+    </Object>
+    <Object Include="layouts/ScorecardAssociation-Scorecard Association Layout.layout">
+      <MetadataType>Layout</MetadataType>
+      <SubType>Layout</SubType>
+      <PhysicalRelativePath>src/layouts/ScorecardAssociation-Scorecard Association Layout.layout</PhysicalRelativePath>
+    </Object>
+    <Object Include="layouts/Contact-Contact %28Sales%29 Layout.layout">
+      <MetadataType>Layout</MetadataType>
+      <SubType>Layout</SubType>
+      <PhysicalRelativePath>src/layouts/Contact-Contact %28Sales%29 Layout.layout</PhysicalRelativePath>
+    </Object>
+    <Object Include="layouts/Opportunity-Opportunity %28Support%29 Layout.layout">
+      <MetadataType>Layout</MetadataType>
+      <SubType>Layout</SubType>
+      <PhysicalRelativePath>src/layouts/Opportunity-Opportunity %28Support%29 Layout.layout</PhysicalRelativePath>
+    </Object>
+    <Object Include="layouts/Opportunity-Opportunity Layout.layout">
+      <MetadataType>Layout</MetadataType>
+      <SubType>Layout</SubType>
+      <PhysicalRelativePath>src/layouts/Opportunity-Opportunity Layout.layout</PhysicalRelativePath>
+    </Object>
+    <Object Include="layouts/Contract-Contract Layout.layout">
+      <MetadataType>Layout</MetadataType>
+      <SubType>Layout</SubType>
+      <PhysicalRelativePath>src/layouts/Contract-Contract Layout.layout</PhysicalRelativePath>
+    </Object>
+    <Object Include="layouts/Event-Event Layout.layout">
+      <MetadataType>Layout</MetadataType>
+      <SubType>Layout</SubType>
+      <PhysicalRelativePath>src/layouts/Event-Event Layout.layout</PhysicalRelativePath>
+    </Object>
+    <Object Include="layouts/Asset-Asset Layout.layout">
+      <MetadataType>Layout</MetadataType>
+      <SubType>Layout</SubType>
+      <PhysicalRelativePath>src/layouts/Asset-Asset Layout.layout</PhysicalRelativePath>
+    </Object>
+    <Object Include="layouts/CaseClose-Close Case Layout.layout">
+      <MetadataType>Layout</MetadataType>
+      <SubType>Layout</SubType>
+      <PhysicalRelativePath>src/layouts/CaseClose-Close Case Layout.layout</PhysicalRelativePath>
+    </Object>
+    <Object Include="layouts/Order-Order Layout.layout">
+      <MetadataType>Layout</MetadataType>
+      <SubType>Layout</SubType>
+      <PhysicalRelativePath>src/layouts/Order-Order Layout.layout</PhysicalRelativePath>
+    </Object>
+    <Object Include="layouts/OrderItem-Order Product Layout.layout">
+      <MetadataType>Layout</MetadataType>
+      <SubType>Layout</SubType>
+      <PhysicalRelativePath>src/layouts/OrderItem-Order Product Layout.layout</PhysicalRelativePath>
+    </Object>
+    <Object Include="layouts/Idea-Idea Layout.layout">
+      <MetadataType>Layout</MetadataType>
+      <SubType>Layout</SubType>
+      <PhysicalRelativePath>src/layouts/Idea-Idea Layout.layout</PhysicalRelativePath>
+    </Object>
+    <Object Include="layouts/Formulary_Association__c-Formulary Association Layout.layout">
+      <MetadataType>Layout</MetadataType>
+      <SubType>Layout</SubType>
+      <PhysicalRelativePath>src/layouts/Formulary_Association__c-Formulary Association Layout.layout</PhysicalRelativePath>
+    </Object>
+    <Object Include="layouts/OpportunityLineItem-Opportunity Product Layout.layout">
+      <MetadataType>Layout</MetadataType>
+      <SubType>Layout</SubType>
+      <PhysicalRelativePath>src/layouts/OpportunityLineItem-Opportunity Product Layout.layout</PhysicalRelativePath>
+    </Object>
+    <Object Include="layouts/Global-Global Layout.layout">
+      <MetadataType>Layout</MetadataType>
+      <SubType>Layout</SubType>
+      <PhysicalRelativePath>src/layouts/Global-Global Layout.layout</PhysicalRelativePath>
+    </Object>
+    <Object Include="layouts/Lead-Lead %28Support%29 Layout.layout">
+      <MetadataType>Layout</MetadataType>
+      <SubType>Layout</SubType>
+      <PhysicalRelativePath>src/layouts/Lead-Lead %28Support%29 Layout.layout</PhysicalRelativePath>
+    </Object>
+    <Object Include="layouts/AccountBrand-Account BrandLayout.layout">
+      <MetadataType>Layout</MetadataType>
+      <SubType>Layout</SubType>
+      <PhysicalRelativePath>src/layouts/AccountBrand-Account BrandLayout.layout</PhysicalRelativePath>
+    </Object>
+    <Object Include="layouts/Lead-Lead Layout.layout">
+      <MetadataType>Layout</MetadataType>
+      <SubType>Layout</SubType>
+      <PhysicalRelativePath>src/layouts/Lead-Lead Layout.layout</PhysicalRelativePath>
+    </Object>
+    <Object Include="layouts/PricebookEntry-Price Book Entry Layout.layout">
+      <MetadataType>Layout</MetadataType>
+      <SubType>Layout</SubType>
+      <PhysicalRelativePath>src/layouts/PricebookEntry-Price Book Entry Layout.layout</PhysicalRelativePath>
+    </Object>
+    <Object Include="layouts/AssetRelationship-Asset Relationship Layout.layout">
+      <MetadataType>Layout</MetadataType>
+      <SubType>Layout</SubType>
+      <PhysicalRelativePath>src/layouts/AssetRelationship-Asset Relationship Layout.layout</PhysicalRelativePath>
+    </Object>
+    <Object Include="layouts/Pricebook2-Price Book Layout.layout">
+      <MetadataType>Layout</MetadataType>
+      <SubType>Layout</SubType>
+      <PhysicalRelativePath>src/layouts/Pricebook2-Price Book Layout.layout</PhysicalRelativePath>
+    </Object>
+    <Object Include="layouts/Campaign-Campaign Layout.layout">
+      <MetadataType>Layout</MetadataType>
+      <SubType>Layout</SubType>
+      <PhysicalRelativePath>src/layouts/Campaign-Campaign Layout.layout</PhysicalRelativePath>
+    </Object>
+    <Object Include="layouts/Macro-Macro Layout.layout">
+      <MetadataType>Layout</MetadataType>
+      <SubType>Layout</SubType>
+      <PhysicalRelativePath>src/layouts/Macro-Macro Layout.layout</PhysicalRelativePath>
+    </Object>
+    <Object Include="layouts/CampaignMember-Campaign Member Page Layout.layout">
+      <MetadataType>Layout</MetadataType>
+      <SubType>Layout</SubType>
+      <PhysicalRelativePath>src/layouts/CampaignMember-Campaign Member Page Layout.layout</PhysicalRelativePath>
+    </Object>
+    <Object Include="layouts/UserProvisioningLog-User Provisioning Log Layout.layout">
+      <MetadataType>Layout</MetadataType>
+      <SubType>Layout</SubType>
+      <PhysicalRelativePath>src/layouts/UserProvisioningLog-User Provisioning Log Layout.layout</PhysicalRelativePath>
+    </Object>
+    <Object Include="layouts/Task-Task Layout.layout">
+      <MetadataType>Layout</MetadataType>
+      <SubType>Layout</SubType>
+      <PhysicalRelativePath>src/layouts/Task-Task Layout.layout</PhysicalRelativePath>
+    </Object>
+    <Object Include="layouts/EmailMessage-Email Message Layout.layout">
+      <MetadataType>Layout</MetadataType>
+      <SubType>Layout</SubType>
+      <PhysicalRelativePath>src/layouts/EmailMessage-Email Message Layout.layout</PhysicalRelativePath>
+    </Object>
+    <Object Include="layouts/UserProvisioningRequest-User Provisioning Request Layout.layout">
+      <MetadataType>Layout</MetadataType>
+      <SubType>Layout</SubType>
+      <PhysicalRelativePath>src/layouts/UserProvisioningRequest-User Provisioning Request Layout.layout</PhysicalRelativePath>
+    </Object>
+    <Object Include="layouts/DuplicateRecordSet-Duplicate Record Set Layout.layout">
+      <MetadataType>Layout</MetadataType>
+      <SubType>Layout</SubType>
+      <PhysicalRelativePath>src/layouts/DuplicateRecordSet-Duplicate Record Set Layout.layout</PhysicalRelativePath>
+    </Object>
+    <Object Include="layouts/DandBCompany-D%26B Company Layout.layout">
+      <MetadataType>Layout</MetadataType>
+      <SubType>Layout</SubType>
+      <PhysicalRelativePath>src/layouts/DandBCompany-D%26B Company Layout.layout</PhysicalRelativePath>
+    </Object>
+    <Object Include="layouts/Case-Case %28Marketing%29 Layout.layout">
+      <MetadataType>Layout</MetadataType>
+      <SubType>Layout</SubType>
+      <PhysicalRelativePath>src/layouts/Case-Case %28Marketing%29 Layout.layout</PhysicalRelativePath>
+    </Object>
+    <Object Include="layouts/Case-Case %28Sales%29 Layout.layout">
+      <MetadataType>Layout</MetadataType>
+      <SubType>Layout</SubType>
+      <PhysicalRelativePath>src/layouts/Case-Case %28Sales%29 Layout.layout</PhysicalRelativePath>
+    </Object>
+    <Object Include="layouts/My_Prescription__c-My Prescription Layout.layout">
+      <MetadataType>Layout</MetadataType>
+      <SubType>Layout</SubType>
+      <PhysicalRelativePath>src/layouts/My_Prescription__c-My Prescription Layout.layout</PhysicalRelativePath>
+    </Object>
+    <Object Include="layouts/UserProvAccount-User Provisioning Account Layout.layout">
+      <MetadataType>Layout</MetadataType>
+      <SubType>Layout</SubType>
+      <PhysicalRelativePath>src/layouts/UserProvAccount-User Provisioning Account Layout.layout</PhysicalRelativePath>
+    </Object>
+    <Object Include="layouts/User-User Layout.layout">
+      <MetadataType>Layout</MetadataType>
+      <SubType>Layout</SubType>
+      <PhysicalRelativePath>src/layouts/User-User Layout.layout</PhysicalRelativePath>
+    </Object>
+    <Object Include="layouts/ContentVersion-Content Version Layout.layout">
+      <MetadataType>Layout</MetadataType>
+      <SubType>Layout</SubType>
+      <PhysicalRelativePath>src/layouts/ContentVersion-Content Version Layout.layout</PhysicalRelativePath>
+    </Object>
+    <Object Include="layouts/Product2-Product Layout.layout">
+      <MetadataType>Layout</MetadataType>
+      <SubType>Layout</SubType>
+      <PhysicalRelativePath>src/layouts/Product2-Product Layout.layout</PhysicalRelativePath>
+    </Object>
+    <Object Include="layouts/Solution-Solution Layout.layout">
+      <MetadataType>Layout</MetadataType>
+      <SubType>Layout</SubType>
+      <PhysicalRelativePath>src/layouts/Solution-Solution Layout.layout</PhysicalRelativePath>
+    </Object>
+    <Object Include="layouts/Insured_Item__c-Insured Item Layout.layout">
+      <MetadataType>Layout</MetadataType>
+      <SubType>Layout</SubType>
+      <PhysicalRelativePath>src/layouts/Insured_Item__c-Insured Item Layout.layout</PhysicalRelativePath>
+    </Object>
+    <Object Include="layouts/Scorecard-Scorecard Layout.layout">
+      <MetadataType>Layout</MetadataType>
+      <SubType>Layout</SubType>
+      <PhysicalRelativePath>src/layouts/Scorecard-Scorecard Layout.layout</PhysicalRelativePath>
+    </Object>
+    <Object Include="layouts/Pill__c-Pill Identifier Layout.layout">
+      <MetadataType>Layout</MetadataType>
+      <SubType>Layout</SubType>
+      <PhysicalRelativePath>src/layouts/Pill__c-Pill Identifier Layout.layout</PhysicalRelativePath>
+    </Object>
+    <Object Include="layouts/ScorecardMetric-Scorecard Metric Layout.layout">
+      <MetadataType>Layout</MetadataType>
+      <SubType>Layout</SubType>
+      <PhysicalRelativePath>src/layouts/ScorecardMetric-Scorecard Metric Layout.layout</PhysicalRelativePath>
+    </Object>
+    <Object Include="layouts/FeedItem-Feed Item Layout.layout">
+      <MetadataType>Layout</MetadataType>
+      <SubType>Layout</SubType>
+      <PhysicalRelativePath>src/layouts/FeedItem-Feed Item Layout.layout</PhysicalRelativePath>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <StaticZip Include="staticresources/Pills">
+      <SubType>StaticResourceZip</SubType>
+    </StaticZip>
+    <StaticZip Include="staticresources/TWS_Sync_Data">
+      <MetadataType>StaticResourceZip</MetadataType>
+      <SubType>StaticResourceZip</SubType>
+      <PackageName></PackageName>
+    </StaticZip>
+  </ItemGroup>
+  <ItemGroup>
+    <Static Include="staticresources/greenCircle.png">
+      <PhysicalRelativePath>resource-bundles/greenCircle.png</PhysicalRelativePath>
+      <SubType>StaticResource</SubType>
+    </Static>
+    <Static Include="staticresources/identifyPillC.png">
+      <PhysicalRelativePath>resource-bundles/identifyPillC.png</PhysicalRelativePath>
+      <SubType>StaticResource</SubType>
+    </Static>
+    <Static Include="staticresources/redCircle.png">
+      <PhysicalRelativePath>resource-bundles/redCircle.png</PhysicalRelativePath>
+      <SubType>StaticResource</SubType>
+    </Static>
+    <Static Include="staticresources/takePill.png">
+      <PhysicalRelativePath>resource-bundles/takePill.png</PhysicalRelativePath>
+      <SubType>StaticResource</SubType>
+    </Static>
+  </ItemGroup>
+  <ItemGroup>
+    <StaticZipItem Include="staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol1.jpg">
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Ethinylestradiol/Ethinylestradiol1.jpg</PhysicalRelativePath>
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol1.jpg</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol10.jpeg">
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Ethinylestradiol/Ethinylestradiol10.jpeg</PhysicalRelativePath>
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol10.jpeg</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol11.jpg">
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Ethinylestradiol/Ethinylestradiol11.jpg</PhysicalRelativePath>
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol11.jpg</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol12.jpg">
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Ethinylestradiol/Ethinylestradiol12.jpg</PhysicalRelativePath>
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol12.jpg</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol13.jpg">
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Ethinylestradiol/Ethinylestradiol13.jpg</PhysicalRelativePath>
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol13.jpg</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol14.JPG">
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Ethinylestradiol/Ethinylestradiol14.JPG</PhysicalRelativePath>
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol14.JPG</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol15.jpg">
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Ethinylestradiol/Ethinylestradiol15.jpg</PhysicalRelativePath>
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol15.jpg</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol2.JPG">
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Ethinylestradiol/Ethinylestradiol2.JPG</PhysicalRelativePath>
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol2.JPG</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol3.JPG">
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Ethinylestradiol/Ethinylestradiol3.JPG</PhysicalRelativePath>
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol3.JPG</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol4.jpeg">
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Ethinylestradiol/Ethinylestradiol4.jpeg</PhysicalRelativePath>
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol4.jpeg</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol5.jpeg">
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Ethinylestradiol/Ethinylestradiol5.jpeg</PhysicalRelativePath>
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol5.jpeg</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol6.JPG">
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Ethinylestradiol/Ethinylestradiol6.JPG</PhysicalRelativePath>
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol6.JPG</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol7.JPG">
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Ethinylestradiol/Ethinylestradiol7.JPG</PhysicalRelativePath>
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol7.JPG</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol8.jpeg">
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Ethinylestradiol/Ethinylestradiol8.jpeg</PhysicalRelativePath>
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol8.jpeg</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol9.jpeg">
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Ethinylestradiol/Ethinylestradiol9.jpeg</PhysicalRelativePath>
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol9.jpeg</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Lorazepam/Lorazepam1.jpg">
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Lorazepam/Lorazepam1.jpg</PhysicalRelativePath>
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Lorazepam/Lorazepam1.jpg</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Lorazepam/Lorazepam10.jpeg">
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Lorazepam/Lorazepam10.jpeg</PhysicalRelativePath>
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Lorazepam/Lorazepam10.jpeg</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Lorazepam/Lorazepam11.JPG">
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Lorazepam/Lorazepam11.JPG</PhysicalRelativePath>
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Lorazepam/Lorazepam11.JPG</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Lorazepam/Lorazepam12.JPG">
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Lorazepam/Lorazepam12.JPG</PhysicalRelativePath>
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Lorazepam/Lorazepam12.JPG</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Lorazepam/Lorazepam13.JPG">
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Lorazepam/Lorazepam13.JPG</PhysicalRelativePath>
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Lorazepam/Lorazepam13.JPG</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Lorazepam/Lorazepam14.JPG">
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Lorazepam/Lorazepam14.JPG</PhysicalRelativePath>
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Lorazepam/Lorazepam14.JPG</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Lorazepam/Lorazepam15.JPG">
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Lorazepam/Lorazepam15.JPG</PhysicalRelativePath>
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Lorazepam/Lorazepam15.JPG</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Lorazepam/Lorazepam16.jpg">
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Lorazepam/Lorazepam16.jpg</PhysicalRelativePath>
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Lorazepam/Lorazepam16.jpg</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Lorazepam/Lorazepam17.jpeg">
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Lorazepam/Lorazepam17.jpeg</PhysicalRelativePath>
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Lorazepam/Lorazepam17.jpeg</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Lorazepam/Lorazepam18.jpg">
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Lorazepam/Lorazepam18.jpg</PhysicalRelativePath>
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Lorazepam/Lorazepam18.jpg</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Lorazepam/Lorazepam19.jpg">
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Lorazepam/Lorazepam19.jpg</PhysicalRelativePath>
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Lorazepam/Lorazepam19.jpg</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Lorazepam/Lorazepam2.jpg">
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Lorazepam/Lorazepam2.jpg</PhysicalRelativePath>
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Lorazepam/Lorazepam2.jpg</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Lorazepam/Lorazepam3.jpg">
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Lorazepam/Lorazepam3.jpg</PhysicalRelativePath>
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Lorazepam/Lorazepam3.jpg</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Lorazepam/Lorazepam4.jpg">
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Lorazepam/Lorazepam4.jpg</PhysicalRelativePath>
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Lorazepam/Lorazepam4.jpg</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Lorazepam/Lorazepam5.jpg">
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Lorazepam/Lorazepam5.jpg</PhysicalRelativePath>
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Lorazepam/Lorazepam5.jpg</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Lorazepam/Lorazepam7.jpeg">
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Lorazepam/Lorazepam7.jpeg</PhysicalRelativePath>
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Lorazepam/Lorazepam7.jpeg</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Lorazepam/Lorazepam8.jpeg">
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Lorazepam/Lorazepam8.jpeg</PhysicalRelativePath>
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Lorazepam/Lorazepam8.jpeg</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Lorazepam/Lorazepam9.jpeg">
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Lorazepam/Lorazepam9.jpeg</PhysicalRelativePath>
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Lorazepam/Lorazepam9.jpeg</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Lorazepam/Lorezepam6.JPG">
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Lorazepam/Lorezepam6.JPG</PhysicalRelativePath>
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Lorazepam/Lorezepam6.JPG</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Oxybutynin/Oxybutynin1.JPG">
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Oxybutynin/Oxybutynin1.JPG</PhysicalRelativePath>
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Oxybutynin/Oxybutynin1.JPG</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Oxybutynin/Oxybutynin11.jpeg">
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Oxybutynin/Oxybutynin11.jpeg</PhysicalRelativePath>
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Oxybutynin/Oxybutynin11.jpeg</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Oxybutynin/Oxybutynin12.jpeg">
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Oxybutynin/Oxybutynin12.jpeg</PhysicalRelativePath>
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Oxybutynin/Oxybutynin12.jpeg</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Oxybutynin/Oxybutynin13.JPG">
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Oxybutynin/Oxybutynin13.JPG</PhysicalRelativePath>
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Oxybutynin/Oxybutynin13.JPG</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Oxybutynin/Oxybutynin14.jpg">
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Oxybutynin/Oxybutynin14.jpg</PhysicalRelativePath>
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Oxybutynin/Oxybutynin14.jpg</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Oxybutynin/Oxybutynin15.JPG">
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Oxybutynin/Oxybutynin15.JPG</PhysicalRelativePath>
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Oxybutynin/Oxybutynin15.JPG</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Oxybutynin/Oxybutynin2.jpg">
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Oxybutynin/Oxybutynin2.jpg</PhysicalRelativePath>
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Oxybutynin/Oxybutynin2.jpg</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Oxybutynin/Oxybutynin3.JPG">
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Oxybutynin/Oxybutynin3.JPG</PhysicalRelativePath>
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Oxybutynin/Oxybutynin3.JPG</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Oxybutynin/Oxybutynin4.JPG">
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Oxybutynin/Oxybutynin4.JPG</PhysicalRelativePath>
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Oxybutynin/Oxybutynin4.JPG</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Oxybutynin/Oxybutynin5.jpg">
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Oxybutynin/Oxybutynin5.jpg</PhysicalRelativePath>
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Oxybutynin/Oxybutynin5.jpg</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Oxybutynin/Oxybutynin6.JPG">
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Oxybutynin/Oxybutynin6.JPG</PhysicalRelativePath>
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Oxybutynin/Oxybutynin6.JPG</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Oxybutynin/Oxybutynin7.JPG">
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Oxybutynin/Oxybutynin7.JPG</PhysicalRelativePath>
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Oxybutynin/Oxybutynin7.JPG</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Oxybutynin/Oxybutynin8.jpeg">
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Oxybutynin/Oxybutynin8.jpeg</PhysicalRelativePath>
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Oxybutynin/Oxybutynin8.jpeg</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Oxybutynin/Oxybutynin9.jpeg">
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Oxybutynin/Oxybutynin9.jpeg</PhysicalRelativePath>
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Oxybutynin/Oxybutynin9.jpeg</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/TWS_Sync_Data/TWS_Sync_Data.twssd">
+      <StaticResource>TWS_Sync_Data</StaticResource>
+      <StaticResourcePath>staticresources/TWS_Sync_Data/TWS_Sync_Data.twssd</StaticResourcePath>
+      <MetadataType>StaticResourceZipItem</MetadataType>
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>resource-bundles/TWS_Sync_Data/TWS_Sync_Data.twssd</PhysicalRelativePath>
+    </StaticZipItem>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="classes/EinsteinAI_JWT.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/EinsteinAI_JWT.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/EinsteinAI_JWT.cls</DependentUpon>
+    </None>
+    <None Include="classes/EinsteinAI_JWTBearerFlow.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/EinsteinAI_JWTBearerFlow.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/EinsteinAI_JWTBearerFlow.cls</DependentUpon>
+    </None>
+    <None Include="classes/EinsteinVision_Admin.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/EinsteinVision_Admin.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/EinsteinVision_Admin.cls</DependentUpon>
+    </None>
+    <None Include="classes/EinsteinVision_ApiUsage.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/EinsteinVision_ApiUsage.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/EinsteinVision_ApiUsage.cls</DependentUpon>
+    </None>
+    <None Include="classes/EinsteinVision_Dataset.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/EinsteinVision_Dataset.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/EinsteinVision_Dataset.cls</DependentUpon>
+    </None>
+    <None Include="classes/EinsteinVision_EpochResult.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/EinsteinVision_EpochResult.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/EinsteinVision_EpochResult.cls</DependentUpon>
+    </None>
+    <None Include="classes/EinsteinVision_Example.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/EinsteinVision_Example.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/EinsteinVision_Example.cls</DependentUpon>
+    </None>
+    <None Include="classes/EinsteinVision_HttpBodyPart.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/EinsteinVision_HttpBodyPart.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/EinsteinVision_HttpBodyPart.cls</DependentUpon>
+    </None>
+    <None Include="classes/EinsteinVision_HttpBodyPartDataset.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/EinsteinVision_HttpBodyPartDataset.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/EinsteinVision_HttpBodyPartDataset.cls</DependentUpon>
+    </None>
+    <None Include="classes/EinsteinVision_HttpBodyPartDatasetUrl.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/EinsteinVision_HttpBodyPartDatasetUrl.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/EinsteinVision_HttpBodyPartDatasetUrl.cls</DependentUpon>
+    </None>
+    <None Include="classes/EinsteinVision_HttpBodyPartExample.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/EinsteinVision_HttpBodyPartExample.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/EinsteinVision_HttpBodyPartExample.cls</DependentUpon>
+    </None>
+    <None Include="classes/EinsteinVision_HttpBodyPartLabel.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/EinsteinVision_HttpBodyPartLabel.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/EinsteinVision_HttpBodyPartLabel.cls</DependentUpon>
+    </None>
+    <None Include="classes/EinsteinVision_HttpBodyPartPrediction.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/EinsteinVision_HttpBodyPartPrediction.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/EinsteinVision_HttpBodyPartPrediction.cls</DependentUpon>
+    </None>
+    <None Include="classes/EinsteinVision_HttpBodyPartTraining.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/EinsteinVision_HttpBodyPartTraining.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/EinsteinVision_HttpBodyPartTraining.cls</DependentUpon>
+    </None>
+    <None Include="classes/EinsteinVision_HttpClient.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/EinsteinVision_HttpClient.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/EinsteinVision_HttpClient.cls</DependentUpon>
+    </None>
+    <None Include="classes/EinsteinVision_Label.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/EinsteinVision_Label.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/EinsteinVision_Label.cls</DependentUpon>
+    </None>
+    <None Include="classes/EinsteinVision_LabelSummary.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/EinsteinVision_LabelSummary.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/EinsteinVision_LabelSummary.cls</DependentUpon>
+    </None>
+    <None Include="classes/EinsteinVision_Model.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/EinsteinVision_Model.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/EinsteinVision_Model.cls</DependentUpon>
+    </None>
+    <None Include="classes/EinsteinVision_ModelLearningCurve.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/EinsteinVision_ModelLearningCurve.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/EinsteinVision_ModelLearningCurve.cls</DependentUpon>
+    </None>
+    <None Include="classes/EinsteinVision_ModelMetrics.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/EinsteinVision_ModelMetrics.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/EinsteinVision_ModelMetrics.cls</DependentUpon>
+    </None>
+    <None Include="classes/EinsteinVision_NoValuesException.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/EinsteinVision_NoValuesException.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/EinsteinVision_NoValuesException.cls</DependentUpon>
+    </None>
+    <None Include="classes/EinsteinVision_NullPointerException.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/EinsteinVision_NullPointerException.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/EinsteinVision_NullPointerException.cls</DependentUpon>
+    </None>
+    <None Include="classes/EinsteinVision_NumberTooBigException.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/EinsteinVision_NumberTooBigException.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/EinsteinVision_NumberTooBigException.cls</DependentUpon>
+    </None>
+    <None Include="classes/EinsteinVision_NumberTooSmallException.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/EinsteinVision_NumberTooSmallException.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/EinsteinVision_NumberTooSmallException.cls</DependentUpon>
+    </None>
+    <None Include="classes/EinsteinVision_PlanData.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/EinsteinVision_PlanData.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/EinsteinVision_PlanData.cls</DependentUpon>
+    </None>
+    <None Include="classes/EinsteinVision_PredictionResult.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/EinsteinVision_PredictionResult.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/EinsteinVision_PredictionResult.cls</DependentUpon>
+    </None>
+    <None Include="classes/EinsteinVision_PredictionService.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/EinsteinVision_PredictionService.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/EinsteinVision_PredictionService.cls</DependentUpon>
+    </None>
+    <None Include="classes/EinsteinVision_Probability.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/EinsteinVision_Probability.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/EinsteinVision_Probability.cls</DependentUpon>
+    </None>
+    <None Include="classes/EinsteinVision_StringIsEmptyException.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/EinsteinVision_StringIsEmptyException.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/EinsteinVision_StringIsEmptyException.cls</DependentUpon>
+    </None>
+    <None Include="classes/EinsteinVision_StringTooLongException.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/EinsteinVision_StringTooLongException.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/EinsteinVision_StringTooLongException.cls</DependentUpon>
+    </None>
+    <None Include="classes/EinsteinVision_TooManyValuesException.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/EinsteinVision_TooManyValuesException.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/EinsteinVision_TooManyValuesException.cls</DependentUpon>
+    </None>
+    <None Include="classes/EinsteinVision_UI_Demo.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/EinsteinVision_UI_Demo.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/EinsteinVision_UI_Demo.cls</DependentUpon>
+    </None>
+    <None Include="classes/Test_EinsteinVision.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/Test_EinsteinVision.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/Test_EinsteinVision.cls</DependentUpon>
+    </None>
+    <None Include="classes/Test_EinsteinVision_Admin.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/Test_EinsteinVision_Admin.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/Test_EinsteinVision_Admin.cls</DependentUpon>
+    </None>
+    <None Include="classes/Test_EinsteinVision_HttpMockResponses.cls-meta.xml">
+      <PhysicalRelativePath>src/classes/Test_EinsteinVision_HttpMockResponses.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <PackageName />
+      <DependentUpon>classes/Test_EinsteinVision_HttpMockResponses.cls</DependentUpon>
+    </None>
+    <None Include="classes/Pill_TH.cls-meta.xml">
+      <MetadataType>Metadata</MetadataType>
+      <SubType>Metadata</SubType>
+      <PhysicalRelativePath>src/classes/Pill_TH.cls-meta.xml</PhysicalRelativePath>
+      <DependentUpon>classes/Pill_TH.cls</DependentUpon>
+    </None>
+    <None Include="triggers/PillTrigger.trigger-meta.xml">
+      <MetadataType>Metadata</MetadataType>
+      <SubType>Metadata</SubType>
+      <PhysicalRelativePath>src/triggers/PillTrigger.trigger-meta.xml</PhysicalRelativePath>
+      <DependentUpon>triggers/PillTrigger.trigger</DependentUpon>
+    </None>
+    <None Include="classes/Event_TH.cls-meta.xml">
+      <MetadataType>Metadata</MetadataType>
+      <SubType>Metadata</SubType>
+      <PhysicalRelativePath>src/classes/Event_TH.cls-meta.xml</PhysicalRelativePath>
+      <DependentUpon>classes/Event_TH.cls</DependentUpon>
+    </None>
+    <None Include="triggers/EventTrigger.trigger-meta.xml">
+      <MetadataType>Metadata</MetadataType>
+      <SubType>Metadata</SubType>
+      <PhysicalRelativePath>src/triggers/EventTrigger.trigger-meta.xml</PhysicalRelativePath>
+      <DependentUpon>triggers/EventTrigger.trigger</DependentUpon>
+    </None>
+    <None Include="classes/My_Prescription_TH.cls-meta.xml">
+      <MetadataType>Metadata</MetadataType>
+      <SubType>Metadata</SubType>
+      <PhysicalRelativePath>src/classes/My_Prescription_TH.cls-meta.xml</PhysicalRelativePath>
+      <DependentUpon>classes/My_Prescription_TH.cls</DependentUpon>
+    </None>
+    <None Include="triggers/My_PrescriptionTrigger.trigger-meta.xml">
+      <MetadataType>Metadata</MetadataType>
+      <SubType>Metadata</SubType>
+      <PhysicalRelativePath>src/triggers/My_PrescriptionTrigger.trigger-meta.xml</PhysicalRelativePath>
+      <DependentUpon>triggers/My_PrescriptionTrigger.trigger</DependentUpon>
+    </None>
+    <None Include="classes/PillTrigger_TEST.cls-meta.xml">
+      <MetadataType>Metadata</MetadataType>
+      <SubType>Metadata</SubType>
+      <PhysicalRelativePath>src/classes/PillTrigger_TEST.cls-meta.xml</PhysicalRelativePath>
+      <DependentUpon>classes/PillTrigger_TEST.cls</DependentUpon>
+    </None>
+    <None Include="classes/TestHelper.cls-meta.xml">
+      <MetadataType>Metadata</MetadataType>
+      <SubType>Metadata</SubType>
+      <PhysicalRelativePath>src/classes/TestHelper.cls-meta.xml</PhysicalRelativePath>
+      <DependentUpon>classes/TestHelper.cls</DependentUpon>
+    </None>
+    <None Include="classes/TestHelper_TEST.cls-meta.xml">
+      <MetadataType>Metadata</MetadataType>
+      <SubType>Metadata</SubType>
+      <PhysicalRelativePath>src/classes/TestHelper_TEST.cls-meta.xml</PhysicalRelativePath>
+      <DependentUpon>classes/TestHelper_TEST.cls</DependentUpon>
+    </None>
+    <None Include="classes/My_PrescriptionTrigger_TEST.cls-meta.xml">
+      <MetadataType>Metadata</MetadataType>
+      <SubType>Metadata</SubType>
+      <PhysicalRelativePath>src/classes/My_PrescriptionTrigger_TEST.cls-meta.xml</PhysicalRelativePath>
+      <DependentUpon>classes/My_PrescriptionTrigger_TEST.cls</DependentUpon>
+    </None>
+    <None Include="classes/EventTrigger_TEST.cls-meta.xml">
+      <MetadataType>Metadata</MetadataType>
+      <SubType>Metadata</SubType>
+      <PhysicalRelativePath>src/classes/EventTrigger_TEST.cls-meta.xml</PhysicalRelativePath>
+      <DependentUpon>classes/EventTrigger_TEST.cls</DependentUpon>
+    </None>
+    <None Include="classes/EinsteinVision_NumberTooBigExcepti_TEST.cls-meta.xml">
+      <MetadataType>Metadata</MetadataType>
+      <SubType>Metadata</SubType>
+      <PhysicalRelativePath>src/classes/EinsteinVision_NumberTooBigExcepti_TEST.cls-meta.xml</PhysicalRelativePath>
+      <DependentUpon>classes/EinsteinVision_NumberTooBigExcepti_TEST.cls</DependentUpon>
+    </None>
+  </ItemGroup>
+</Project>

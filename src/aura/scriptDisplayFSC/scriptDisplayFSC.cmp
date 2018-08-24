@@ -1,0 +1,17 @@
+<aura:component implements="lightning:availableForFlowScreens" access="global">
+    <aura:attribute name="callscript" type="String" default="Hello" access="global" />
+    <div>
+        <div style="padding: 5px; border-style: solid; border-width: 3px; border-color:
+        red;">
+            <div class="slds-box slds-theme_shade slds-theme_alert-texture">
+            <div style="float:center; margin-right:15px;">
+                <div class="slds-p-right_medium"><lightning:icon iconName="utility:sentiment_negative" variant="error"/></div>
+                <span style="font-size: 16px; line-height:2;" class="greeting">{!v.callscript}
+                We were not able to find and identify this pill. Please contact your health care provider to make sure it is part of your prescriptions.
+            </span>
+                </div> 
+            </div>
+        </div>
+    </div>
+    <br/>
+</aura:component>

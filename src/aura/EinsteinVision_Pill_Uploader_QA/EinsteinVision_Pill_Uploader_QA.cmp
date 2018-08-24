@@ -1,0 +1,5 @@
+<aura:component implements="force:hasRecordId,force:lightningQuickAction" access="global" >
+    <c:EinsteinVision_Pill_Uploader recordId="{!v.recordId}" />
+    
+    <lightning:button label="Return" onclick="{!c.clickAdd}"/>
+</aura:component>
