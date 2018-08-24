@@ -8,18 +8,6 @@
             <LastModifiedDateUtcTicks>131772062210000000</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
-            <ItemKey>src\aura\EinsteinPlatform_Card\EinsteinPlatform_Card.cmp</ItemKey>
-            <Id>0Ad1J000000Z0QGSA0</Id>
-            <Hash>VKST1faqf/O1LQ5g8hrwfA==</Hash>
-            <LastModifiedDateUtcTicks>131772062220000000</LastModifiedDateUtcTicks>
-        </RemoteItemProperties>
-        <RemoteItemProperties>
-            <ItemKey>src\aura\EinsteinPlatform_Card\EinsteinPlatform_Card.css</ItemKey>
-            <Id>0Ad1J000000Z0QHSA0</Id>
-            <Hash>/ds+o/b8ESh8HWLQEKHUsQ==</Hash>
-            <LastModifiedDateUtcTicks>131772062220000000</LastModifiedDateUtcTicks>
-        </RemoteItemProperties>
-        <RemoteItemProperties>
             <ItemKey>src\aura\EinsteinVision_Admin_UI\EinsteinVision_Admin_UI.auradoc</ItemKey>
             <Id>0Ad1J000000Z0OuSAK</Id>
             <Hash>C1ugETDJEKUpkkI3DyzkzQ==</Hash>
@@ -302,13 +290,13 @@
         <RemoteItemProperties>
             <ItemKey>src\classes\EinsteinVision_Admin.cls</ItemKey>
             <Id>01p1J000005opO8QAI</Id>
-            <Hash>Btdxl14o0+dj8UnxAaLLiA==</Hash>
-            <LastModifiedDateUtcTicks>131793408760000000</LastModifiedDateUtcTicks>
+            <Hash>Xn8hN/8ONo0eIlaPMFuGFQ==</Hash>
+            <LastModifiedDateUtcTicks>131796135250000000</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\classes\EinsteinVision_Admin.cls-meta.xml</ItemKey>
             <Hash>Zq3gQSxTZehdIucyITjunw==</Hash>
-            <LastModifiedDateUtcTicks>131793408760000000</LastModifiedDateUtcTicks>
+            <LastModifiedDateUtcTicks>131796135250000000</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\classes\EinsteinVision_ApiUsage.cls</ItemKey>
@@ -853,12 +841,12 @@
             <ItemKey>src\classes\EinsteinVision_NumberTooBigExcepti_TEST.cls</ItemKey>
             <Id>01p1J000005I58WQAS</Id>
             <Hash>TcPko5cJQ/CChLbz8UqbfQ==</Hash>
-            <LastModifiedDateUtcTicks>131795957070000000</LastModifiedDateUtcTicks>
+            <LastModifiedDateUtcTicks>131796142920000000</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\classes\EinsteinVision_NumberTooBigExcepti_TEST.cls-meta.xml</ItemKey>
             <Hash>nR9sKqu0CUBqGIxS8xyplA==</Hash>
-            <LastModifiedDateUtcTicks>131795957070000000</LastModifiedDateUtcTicks>
+            <LastModifiedDateUtcTicks>131796142920000000</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\applications\standard__AppLauncher.app</ItemKey>
@@ -1775,8 +1763,8 @@
         <RemoteItemProperties>
             <ItemKey>TWS_Sync_Data</ItemKey>
             <Id>0811J000000HY2VQAW</Id>
-            <Hash>KrEtlQB77EsyVpWgTGz5dQ==</Hash>
-            <LastModifiedDateUtcTicks>131795950450000000</LastModifiedDateUtcTicks>
+            <Hash>40idSVGKCM+UPMkCDyaYWw==</Hash>
+            <LastModifiedDateUtcTicks>131795965250000000</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
     </Items>
 </RemotePropertiesSet>

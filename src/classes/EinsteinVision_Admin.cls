@@ -50,17 +50,30 @@ public class EinsteinVision_Admin {
                 EinsteinVision_PredictionResult result = service.predictBlob(model, fileBlob, '');
                 EinsteinVision_Probability probability = result.probabilities.get(0);
                 
-                Pill__c pill = [SELECT Id FROM Pill__C WHERE Id=:pillId];
-                System.debug('label is: ' + probability.label);
-                pill.Predicted_Drug_Name__c = probability.label;
-                update pill;
-                Attachment[] attsOld = [SELECT Id FROM Attachment WHERE ParentId=:pillId];
-                delete attsOld;
-                Attachment att = new Attachment();
-                att.Body = fileBlob;
-                att.ParentId = pill.Id;
-                att.Name = fileName;
-                insert att;
+                if (Schema.SObjectType.Pill__c.isAccessible()
+                   && Schema.SObjectType.Attachment.isAccessible())
+                {
+                    Pill__c pill = [SELECT Id FROM Pill__C WHERE Id=:pillId];
+                    if (Schema.SObjectType.Pill__c.fields.Predicted_Drug_Name__c.isUpdateable())
+                    {
+                        pill.Predicted_Drug_Name__c = probability.label;
+                        update pill;
+                    }
+                    if (Schema.SObjectType.Attachment.isDeletable()
+                        && Schema.SObjectType.Attachment.isCreateable()
+                       	&& Schema.SObjectType.Attachment.fields.Body.isUpdateable()
+                       	&& Schema.SObjectType.Attachment.fields.ParentId.isUpdateable()
+                       	&& Schema.SObjectType.Attachment.fields.Name.isUpdateable())
+                    {
+                        Attachment[] attsOld = [SELECT Id FROM Attachment WHERE ParentId=:pillId];
+                        delete attsOld;
+                        Attachment att = new Attachment();
+                        att.Body = fileBlob;
+                        att.ParentId = pill.Id;
+                        att.Name = fileName;
+                        insert att;
+                    }
+                }
             }
         }
     }

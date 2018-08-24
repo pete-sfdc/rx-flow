@@ -137,18 +137,6 @@
       <BundleName>defaultTokens</BundleName>
       <LightningType>Tokens</LightningType>
     </Compile>
-    <Compile Include="aura/EinsteinPlatform_Card/EinsteinPlatform_Card.cmp">
-      <PhysicalRelativePath>src/aura/EinsteinPlatform_Card/EinsteinPlatform_Card.cmp</PhysicalRelativePath>
-      <SubType>AuraDefinitionBundle</SubType>
-      <BundleName>EinsteinPlatform_Card</BundleName>
-      <LightningType>Component</LightningType>
-    </Compile>
-    <Compile Include="aura/EinsteinPlatform_Card/EinsteinPlatform_Card.css">
-      <PhysicalRelativePath>src/aura/EinsteinPlatform_Card/EinsteinPlatform_Card.css</PhysicalRelativePath>
-      <SubType>AuraDefinitionBundle</SubType>
-      <BundleName>EinsteinPlatform_Card</BundleName>
-      <LightningType>Style</LightningType>
-    </Compile>
     <Compile Include="aura/EinsteinVision_Admin_UI/EinsteinVision_Admin_UI.auradoc">
       <PhysicalRelativePath>src/aura/EinsteinVision_Admin_UI/EinsteinVision_Admin_UI.auradoc</PhysicalRelativePath>
       <SubType>AuraDefinitionBundle</SubType>
