@@ -1383,7 +1383,9 @@
   </ItemGroup>
   <ItemGroup>
     <StaticZip Include="staticresources/Pills">
+      <MetadataType>StaticResourceZip</MetadataType>
       <SubType>StaticResourceZip</SubType>
+      <PackageName></PackageName>
     </StaticZip>
     <StaticZip Include="staticresources/TWS_Sync_Data">
       <MetadataType>StaticResourceZip</MetadataType>
@@ -1393,310 +1395,362 @@
   </ItemGroup>
   <ItemGroup>
     <Static Include="staticresources/greenCircle.png">
-      <PhysicalRelativePath>resource-bundles/greenCircle.png</PhysicalRelativePath>
+      <MetadataType>StaticResource</MetadataType>
       <SubType>StaticResource</SubType>
+      <PhysicalRelativePath>resource-bundles/greenCircle.png</PhysicalRelativePath>
     </Static>
     <Static Include="staticresources/identifyPillC.png">
-      <PhysicalRelativePath>resource-bundles/identifyPillC.png</PhysicalRelativePath>
+      <MetadataType>StaticResource</MetadataType>
       <SubType>StaticResource</SubType>
+      <PhysicalRelativePath>resource-bundles/identifyPillC.png</PhysicalRelativePath>
     </Static>
     <Static Include="staticresources/redCircle.png">
-      <PhysicalRelativePath>resource-bundles/redCircle.png</PhysicalRelativePath>
+      <MetadataType>StaticResource</MetadataType>
       <SubType>StaticResource</SubType>
+      <PhysicalRelativePath>resource-bundles/redCircle.png</PhysicalRelativePath>
     </Static>
     <Static Include="staticresources/takePill.png">
-      <PhysicalRelativePath>resource-bundles/takePill.png</PhysicalRelativePath>
+      <MetadataType>StaticResource</MetadataType>
       <SubType>StaticResource</SubType>
+      <PhysicalRelativePath>resource-bundles/takePill.png</PhysicalRelativePath>
     </Static>
   </ItemGroup>
   <ItemGroup>
-    <StaticZipItem Include="staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol1.jpg">
-      <PhysicalRelativePath>resource-bundles/Pills/Pills/Ethinylestradiol/Ethinylestradiol1.jpg</PhysicalRelativePath>
-      <SubType>StaticResourceZipItem</SubType>
-      <StaticResource>Pills</StaticResource>
-      <StaticResourcePath>staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol1.jpg</StaticResourcePath>
-    </StaticZipItem>
-    <StaticZipItem Include="staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol10.jpeg">
-      <PhysicalRelativePath>resource-bundles/Pills/Pills/Ethinylestradiol/Ethinylestradiol10.jpeg</PhysicalRelativePath>
-      <SubType>StaticResourceZipItem</SubType>
-      <StaticResource>Pills</StaticResource>
-      <StaticResourcePath>staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol10.jpeg</StaticResourcePath>
-    </StaticZipItem>
-    <StaticZipItem Include="staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol11.jpg">
-      <PhysicalRelativePath>resource-bundles/Pills/Pills/Ethinylestradiol/Ethinylestradiol11.jpg</PhysicalRelativePath>
-      <SubType>StaticResourceZipItem</SubType>
-      <StaticResource>Pills</StaticResource>
-      <StaticResourcePath>staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol11.jpg</StaticResourcePath>
-    </StaticZipItem>
-    <StaticZipItem Include="staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol12.jpg">
-      <PhysicalRelativePath>resource-bundles/Pills/Pills/Ethinylestradiol/Ethinylestradiol12.jpg</PhysicalRelativePath>
-      <SubType>StaticResourceZipItem</SubType>
-      <StaticResource>Pills</StaticResource>
-      <StaticResourcePath>staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol12.jpg</StaticResourcePath>
-    </StaticZipItem>
-    <StaticZipItem Include="staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol13.jpg">
-      <PhysicalRelativePath>resource-bundles/Pills/Pills/Ethinylestradiol/Ethinylestradiol13.jpg</PhysicalRelativePath>
-      <SubType>StaticResourceZipItem</SubType>
-      <StaticResource>Pills</StaticResource>
-      <StaticResourcePath>staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol13.jpg</StaticResourcePath>
-    </StaticZipItem>
-    <StaticZipItem Include="staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol14.JPG">
-      <PhysicalRelativePath>resource-bundles/Pills/Pills/Ethinylestradiol/Ethinylestradiol14.JPG</PhysicalRelativePath>
-      <SubType>StaticResourceZipItem</SubType>
-      <StaticResource>Pills</StaticResource>
-      <StaticResourcePath>staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol14.JPG</StaticResourcePath>
-    </StaticZipItem>
-    <StaticZipItem Include="staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol15.jpg">
-      <PhysicalRelativePath>resource-bundles/Pills/Pills/Ethinylestradiol/Ethinylestradiol15.jpg</PhysicalRelativePath>
-      <SubType>StaticResourceZipItem</SubType>
-      <StaticResource>Pills</StaticResource>
-      <StaticResourcePath>staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol15.jpg</StaticResourcePath>
-    </StaticZipItem>
-    <StaticZipItem Include="staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol2.JPG">
-      <PhysicalRelativePath>resource-bundles/Pills/Pills/Ethinylestradiol/Ethinylestradiol2.JPG</PhysicalRelativePath>
-      <SubType>StaticResourceZipItem</SubType>
-      <StaticResource>Pills</StaticResource>
-      <StaticResourcePath>staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol2.JPG</StaticResourcePath>
-    </StaticZipItem>
-    <StaticZipItem Include="staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol3.JPG">
-      <PhysicalRelativePath>resource-bundles/Pills/Pills/Ethinylestradiol/Ethinylestradiol3.JPG</PhysicalRelativePath>
-      <SubType>StaticResourceZipItem</SubType>
-      <StaticResource>Pills</StaticResource>
-      <StaticResourcePath>staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol3.JPG</StaticResourcePath>
-    </StaticZipItem>
-    <StaticZipItem Include="staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol4.jpeg">
-      <PhysicalRelativePath>resource-bundles/Pills/Pills/Ethinylestradiol/Ethinylestradiol4.jpeg</PhysicalRelativePath>
-      <SubType>StaticResourceZipItem</SubType>
-      <StaticResource>Pills</StaticResource>
-      <StaticResourcePath>staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol4.jpeg</StaticResourcePath>
-    </StaticZipItem>
-    <StaticZipItem Include="staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol5.jpeg">
-      <PhysicalRelativePath>resource-bundles/Pills/Pills/Ethinylestradiol/Ethinylestradiol5.jpeg</PhysicalRelativePath>
-      <SubType>StaticResourceZipItem</SubType>
-      <StaticResource>Pills</StaticResource>
-      <StaticResourcePath>staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol5.jpeg</StaticResourcePath>
-    </StaticZipItem>
-    <StaticZipItem Include="staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol6.JPG">
-      <PhysicalRelativePath>resource-bundles/Pills/Pills/Ethinylestradiol/Ethinylestradiol6.JPG</PhysicalRelativePath>
-      <SubType>StaticResourceZipItem</SubType>
-      <StaticResource>Pills</StaticResource>
-      <StaticResourcePath>staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol6.JPG</StaticResourcePath>
-    </StaticZipItem>
-    <StaticZipItem Include="staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol7.JPG">
-      <PhysicalRelativePath>resource-bundles/Pills/Pills/Ethinylestradiol/Ethinylestradiol7.JPG</PhysicalRelativePath>
-      <SubType>StaticResourceZipItem</SubType>
-      <StaticResource>Pills</StaticResource>
-      <StaticResourcePath>staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol7.JPG</StaticResourcePath>
-    </StaticZipItem>
-    <StaticZipItem Include="staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol8.jpeg">
-      <PhysicalRelativePath>resource-bundles/Pills/Pills/Ethinylestradiol/Ethinylestradiol8.jpeg</PhysicalRelativePath>
-      <SubType>StaticResourceZipItem</SubType>
-      <StaticResource>Pills</StaticResource>
-      <StaticResourcePath>staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol8.jpeg</StaticResourcePath>
-    </StaticZipItem>
-    <StaticZipItem Include="staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol9.jpeg">
-      <PhysicalRelativePath>resource-bundles/Pills/Pills/Ethinylestradiol/Ethinylestradiol9.jpeg</PhysicalRelativePath>
-      <SubType>StaticResourceZipItem</SubType>
-      <StaticResource>Pills</StaticResource>
-      <StaticResourcePath>staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol9.jpeg</StaticResourcePath>
-    </StaticZipItem>
-    <StaticZipItem Include="staticresources/Pills/Pills/Lorazepam/Lorazepam1.jpg">
-      <PhysicalRelativePath>resource-bundles/Pills/Pills/Lorazepam/Lorazepam1.jpg</PhysicalRelativePath>
-      <SubType>StaticResourceZipItem</SubType>
-      <StaticResource>Pills</StaticResource>
-      <StaticResourcePath>staticresources/Pills/Pills/Lorazepam/Lorazepam1.jpg</StaticResourcePath>
-    </StaticZipItem>
-    <StaticZipItem Include="staticresources/Pills/Pills/Lorazepam/Lorazepam10.jpeg">
-      <PhysicalRelativePath>resource-bundles/Pills/Pills/Lorazepam/Lorazepam10.jpeg</PhysicalRelativePath>
-      <SubType>StaticResourceZipItem</SubType>
-      <StaticResource>Pills</StaticResource>
-      <StaticResourcePath>staticresources/Pills/Pills/Lorazepam/Lorazepam10.jpeg</StaticResourcePath>
-    </StaticZipItem>
-    <StaticZipItem Include="staticresources/Pills/Pills/Lorazepam/Lorazepam11.JPG">
-      <PhysicalRelativePath>resource-bundles/Pills/Pills/Lorazepam/Lorazepam11.JPG</PhysicalRelativePath>
-      <SubType>StaticResourceZipItem</SubType>
-      <StaticResource>Pills</StaticResource>
-      <StaticResourcePath>staticresources/Pills/Pills/Lorazepam/Lorazepam11.JPG</StaticResourcePath>
-    </StaticZipItem>
-    <StaticZipItem Include="staticresources/Pills/Pills/Lorazepam/Lorazepam12.JPG">
-      <PhysicalRelativePath>resource-bundles/Pills/Pills/Lorazepam/Lorazepam12.JPG</PhysicalRelativePath>
-      <SubType>StaticResourceZipItem</SubType>
-      <StaticResource>Pills</StaticResource>
-      <StaticResourcePath>staticresources/Pills/Pills/Lorazepam/Lorazepam12.JPG</StaticResourcePath>
-    </StaticZipItem>
-    <StaticZipItem Include="staticresources/Pills/Pills/Lorazepam/Lorazepam13.JPG">
-      <PhysicalRelativePath>resource-bundles/Pills/Pills/Lorazepam/Lorazepam13.JPG</PhysicalRelativePath>
-      <SubType>StaticResourceZipItem</SubType>
-      <StaticResource>Pills</StaticResource>
-      <StaticResourcePath>staticresources/Pills/Pills/Lorazepam/Lorazepam13.JPG</StaticResourcePath>
-    </StaticZipItem>
-    <StaticZipItem Include="staticresources/Pills/Pills/Lorazepam/Lorazepam14.JPG">
-      <PhysicalRelativePath>resource-bundles/Pills/Pills/Lorazepam/Lorazepam14.JPG</PhysicalRelativePath>
-      <SubType>StaticResourceZipItem</SubType>
-      <StaticResource>Pills</StaticResource>
-      <StaticResourcePath>staticresources/Pills/Pills/Lorazepam/Lorazepam14.JPG</StaticResourcePath>
-    </StaticZipItem>
-    <StaticZipItem Include="staticresources/Pills/Pills/Lorazepam/Lorazepam15.JPG">
-      <PhysicalRelativePath>resource-bundles/Pills/Pills/Lorazepam/Lorazepam15.JPG</PhysicalRelativePath>
-      <SubType>StaticResourceZipItem</SubType>
-      <StaticResource>Pills</StaticResource>
-      <StaticResourcePath>staticresources/Pills/Pills/Lorazepam/Lorazepam15.JPG</StaticResourcePath>
-    </StaticZipItem>
-    <StaticZipItem Include="staticresources/Pills/Pills/Lorazepam/Lorazepam16.jpg">
-      <PhysicalRelativePath>resource-bundles/Pills/Pills/Lorazepam/Lorazepam16.jpg</PhysicalRelativePath>
-      <SubType>StaticResourceZipItem</SubType>
-      <StaticResource>Pills</StaticResource>
-      <StaticResourcePath>staticresources/Pills/Pills/Lorazepam/Lorazepam16.jpg</StaticResourcePath>
-    </StaticZipItem>
-    <StaticZipItem Include="staticresources/Pills/Pills/Lorazepam/Lorazepam17.jpeg">
-      <PhysicalRelativePath>resource-bundles/Pills/Pills/Lorazepam/Lorazepam17.jpeg</PhysicalRelativePath>
-      <SubType>StaticResourceZipItem</SubType>
-      <StaticResource>Pills</StaticResource>
-      <StaticResourcePath>staticresources/Pills/Pills/Lorazepam/Lorazepam17.jpeg</StaticResourcePath>
-    </StaticZipItem>
-    <StaticZipItem Include="staticresources/Pills/Pills/Lorazepam/Lorazepam18.jpg">
-      <PhysicalRelativePath>resource-bundles/Pills/Pills/Lorazepam/Lorazepam18.jpg</PhysicalRelativePath>
-      <SubType>StaticResourceZipItem</SubType>
-      <StaticResource>Pills</StaticResource>
-      <StaticResourcePath>staticresources/Pills/Pills/Lorazepam/Lorazepam18.jpg</StaticResourcePath>
-    </StaticZipItem>
-    <StaticZipItem Include="staticresources/Pills/Pills/Lorazepam/Lorazepam19.jpg">
-      <PhysicalRelativePath>resource-bundles/Pills/Pills/Lorazepam/Lorazepam19.jpg</PhysicalRelativePath>
-      <SubType>StaticResourceZipItem</SubType>
-      <StaticResource>Pills</StaticResource>
-      <StaticResourcePath>staticresources/Pills/Pills/Lorazepam/Lorazepam19.jpg</StaticResourcePath>
-    </StaticZipItem>
-    <StaticZipItem Include="staticresources/Pills/Pills/Lorazepam/Lorazepam2.jpg">
-      <PhysicalRelativePath>resource-bundles/Pills/Pills/Lorazepam/Lorazepam2.jpg</PhysicalRelativePath>
-      <SubType>StaticResourceZipItem</SubType>
-      <StaticResource>Pills</StaticResource>
-      <StaticResourcePath>staticresources/Pills/Pills/Lorazepam/Lorazepam2.jpg</StaticResourcePath>
-    </StaticZipItem>
-    <StaticZipItem Include="staticresources/Pills/Pills/Lorazepam/Lorazepam3.jpg">
-      <PhysicalRelativePath>resource-bundles/Pills/Pills/Lorazepam/Lorazepam3.jpg</PhysicalRelativePath>
-      <SubType>StaticResourceZipItem</SubType>
-      <StaticResource>Pills</StaticResource>
-      <StaticResourcePath>staticresources/Pills/Pills/Lorazepam/Lorazepam3.jpg</StaticResourcePath>
-    </StaticZipItem>
-    <StaticZipItem Include="staticresources/Pills/Pills/Lorazepam/Lorazepam4.jpg">
-      <PhysicalRelativePath>resource-bundles/Pills/Pills/Lorazepam/Lorazepam4.jpg</PhysicalRelativePath>
-      <SubType>StaticResourceZipItem</SubType>
-      <StaticResource>Pills</StaticResource>
-      <StaticResourcePath>staticresources/Pills/Pills/Lorazepam/Lorazepam4.jpg</StaticResourcePath>
-    </StaticZipItem>
-    <StaticZipItem Include="staticresources/Pills/Pills/Lorazepam/Lorazepam5.jpg">
-      <PhysicalRelativePath>resource-bundles/Pills/Pills/Lorazepam/Lorazepam5.jpg</PhysicalRelativePath>
-      <SubType>StaticResourceZipItem</SubType>
-      <StaticResource>Pills</StaticResource>
-      <StaticResourcePath>staticresources/Pills/Pills/Lorazepam/Lorazepam5.jpg</StaticResourcePath>
-    </StaticZipItem>
-    <StaticZipItem Include="staticresources/Pills/Pills/Lorazepam/Lorazepam7.jpeg">
-      <PhysicalRelativePath>resource-bundles/Pills/Pills/Lorazepam/Lorazepam7.jpeg</PhysicalRelativePath>
-      <SubType>StaticResourceZipItem</SubType>
-      <StaticResource>Pills</StaticResource>
-      <StaticResourcePath>staticresources/Pills/Pills/Lorazepam/Lorazepam7.jpeg</StaticResourcePath>
-    </StaticZipItem>
-    <StaticZipItem Include="staticresources/Pills/Pills/Lorazepam/Lorazepam8.jpeg">
-      <PhysicalRelativePath>resource-bundles/Pills/Pills/Lorazepam/Lorazepam8.jpeg</PhysicalRelativePath>
-      <SubType>StaticResourceZipItem</SubType>
-      <StaticResource>Pills</StaticResource>
-      <StaticResourcePath>staticresources/Pills/Pills/Lorazepam/Lorazepam8.jpeg</StaticResourcePath>
-    </StaticZipItem>
     <StaticZipItem Include="staticresources/Pills/Pills/Lorazepam/Lorazepam9.jpeg">
-      <PhysicalRelativePath>resource-bundles/Pills/Pills/Lorazepam/Lorazepam9.jpeg</PhysicalRelativePath>
-      <SubType>StaticResourceZipItem</SubType>
       <StaticResource>Pills</StaticResource>
       <StaticResourcePath>staticresources/Pills/Pills/Lorazepam/Lorazepam9.jpeg</StaticResourcePath>
+      <MetadataType>StaticResourceZipItem</MetadataType>
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Lorazepam/Lorazepam9.jpeg</PhysicalRelativePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Lorazepam/Lorazepam19.jpg">
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Lorazepam/Lorazepam19.jpg</StaticResourcePath>
+      <MetadataType>StaticResourceZipItem</MetadataType>
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Lorazepam/Lorazepam19.jpg</PhysicalRelativePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Lorazepam/Lorazepam18.jpg">
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Lorazepam/Lorazepam18.jpg</StaticResourcePath>
+      <MetadataType>StaticResourceZipItem</MetadataType>
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Lorazepam/Lorazepam18.jpg</PhysicalRelativePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Lorazepam/Lorazepam8.jpeg">
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Lorazepam/Lorazepam8.jpeg</StaticResourcePath>
+      <MetadataType>StaticResourceZipItem</MetadataType>
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Lorazepam/Lorazepam8.jpeg</PhysicalRelativePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Lorazepam/Lorazepam4.jpg">
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Lorazepam/Lorazepam4.jpg</StaticResourcePath>
+      <MetadataType>StaticResourceZipItem</MetadataType>
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Lorazepam/Lorazepam4.jpg</PhysicalRelativePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Lorazepam/Lorazepam5.jpg">
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Lorazepam/Lorazepam5.jpg</StaticResourcePath>
+      <MetadataType>StaticResourceZipItem</MetadataType>
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Lorazepam/Lorazepam5.jpg</PhysicalRelativePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Lorazepam/Lorazepam2.jpg">
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Lorazepam/Lorazepam2.jpg</StaticResourcePath>
+      <MetadataType>StaticResourceZipItem</MetadataType>
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Lorazepam/Lorazepam2.jpg</PhysicalRelativePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Lorazepam/Lorazepam3.jpg">
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Lorazepam/Lorazepam3.jpg</StaticResourcePath>
+      <MetadataType>StaticResourceZipItem</MetadataType>
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Lorazepam/Lorazepam3.jpg</PhysicalRelativePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Lorazepam/Lorazepam1.jpg">
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Lorazepam/Lorazepam1.jpg</StaticResourcePath>
+      <MetadataType>StaticResourceZipItem</MetadataType>
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Lorazepam/Lorazepam1.jpg</PhysicalRelativePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Lorazepam/Lorazepam10.jpeg">
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Lorazepam/Lorazepam10.jpeg</StaticResourcePath>
+      <MetadataType>StaticResourceZipItem</MetadataType>
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Lorazepam/Lorazepam10.jpeg</PhysicalRelativePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Lorazepam/Lorazepam11.JPG">
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Lorazepam/Lorazepam11.JPG</StaticResourcePath>
+      <MetadataType>StaticResourceZipItem</MetadataType>
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Lorazepam/Lorazepam11.JPG</PhysicalRelativePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Lorazepam/Lorazepam13.JPG">
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Lorazepam/Lorazepam13.JPG</StaticResourcePath>
+      <MetadataType>StaticResourceZipItem</MetadataType>
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Lorazepam/Lorazepam13.JPG</PhysicalRelativePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Lorazepam/Lorazepam12.JPG">
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Lorazepam/Lorazepam12.JPG</StaticResourcePath>
+      <MetadataType>StaticResourceZipItem</MetadataType>
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Lorazepam/Lorazepam12.JPG</PhysicalRelativePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Lorazepam/Lorazepam7.jpeg">
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Lorazepam/Lorazepam7.jpeg</StaticResourcePath>
+      <MetadataType>StaticResourceZipItem</MetadataType>
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Lorazepam/Lorazepam7.jpeg</PhysicalRelativePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Lorazepam/Lorazepam17.jpeg">
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Lorazepam/Lorazepam17.jpeg</StaticResourcePath>
+      <MetadataType>StaticResourceZipItem</MetadataType>
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Lorazepam/Lorazepam17.jpeg</PhysicalRelativePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Lorazepam/Lorazepam16.jpg">
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Lorazepam/Lorazepam16.jpg</StaticResourcePath>
+      <MetadataType>StaticResourceZipItem</MetadataType>
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Lorazepam/Lorazepam16.jpg</PhysicalRelativePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Lorazepam/Lorazepam15.JPG">
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Lorazepam/Lorazepam15.JPG</StaticResourcePath>
+      <MetadataType>StaticResourceZipItem</MetadataType>
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Lorazepam/Lorazepam15.JPG</PhysicalRelativePath>
     </StaticZipItem>
     <StaticZipItem Include="staticresources/Pills/Pills/Lorazepam/Lorezepam6.JPG">
-      <PhysicalRelativePath>resource-bundles/Pills/Pills/Lorazepam/Lorezepam6.JPG</PhysicalRelativePath>
-      <SubType>StaticResourceZipItem</SubType>
       <StaticResource>Pills</StaticResource>
       <StaticResourcePath>staticresources/Pills/Pills/Lorazepam/Lorezepam6.JPG</StaticResourcePath>
-    </StaticZipItem>
-    <StaticZipItem Include="staticresources/Pills/Pills/Oxybutynin/Oxybutynin1.JPG">
-      <PhysicalRelativePath>resource-bundles/Pills/Pills/Oxybutynin/Oxybutynin1.JPG</PhysicalRelativePath>
+      <MetadataType>StaticResourceZipItem</MetadataType>
       <SubType>StaticResourceZipItem</SubType>
-      <StaticResource>Pills</StaticResource>
-      <StaticResourcePath>staticresources/Pills/Pills/Oxybutynin/Oxybutynin1.JPG</StaticResourcePath>
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Lorazepam/Lorezepam6.JPG</PhysicalRelativePath>
     </StaticZipItem>
-    <StaticZipItem Include="staticresources/Pills/Pills/Oxybutynin/Oxybutynin11.jpeg">
-      <PhysicalRelativePath>resource-bundles/Pills/Pills/Oxybutynin/Oxybutynin11.jpeg</PhysicalRelativePath>
-      <SubType>StaticResourceZipItem</SubType>
+    <StaticZipItem Include="staticresources/Pills/Pills/Lorazepam/Lorazepam14.JPG">
       <StaticResource>Pills</StaticResource>
-      <StaticResourcePath>staticresources/Pills/Pills/Oxybutynin/Oxybutynin11.jpeg</StaticResourcePath>
-    </StaticZipItem>
-    <StaticZipItem Include="staticresources/Pills/Pills/Oxybutynin/Oxybutynin12.jpeg">
-      <PhysicalRelativePath>resource-bundles/Pills/Pills/Oxybutynin/Oxybutynin12.jpeg</PhysicalRelativePath>
+      <StaticResourcePath>staticresources/Pills/Pills/Lorazepam/Lorazepam14.JPG</StaticResourcePath>
+      <MetadataType>StaticResourceZipItem</MetadataType>
       <SubType>StaticResourceZipItem</SubType>
-      <StaticResource>Pills</StaticResource>
-      <StaticResourcePath>staticresources/Pills/Pills/Oxybutynin/Oxybutynin12.jpeg</StaticResourcePath>
-    </StaticZipItem>
-    <StaticZipItem Include="staticresources/Pills/Pills/Oxybutynin/Oxybutynin13.JPG">
-      <PhysicalRelativePath>resource-bundles/Pills/Pills/Oxybutynin/Oxybutynin13.JPG</PhysicalRelativePath>
-      <SubType>StaticResourceZipItem</SubType>
-      <StaticResource>Pills</StaticResource>
-      <StaticResourcePath>staticresources/Pills/Pills/Oxybutynin/Oxybutynin13.JPG</StaticResourcePath>
-    </StaticZipItem>
-    <StaticZipItem Include="staticresources/Pills/Pills/Oxybutynin/Oxybutynin14.jpg">
-      <PhysicalRelativePath>resource-bundles/Pills/Pills/Oxybutynin/Oxybutynin14.jpg</PhysicalRelativePath>
-      <SubType>StaticResourceZipItem</SubType>
-      <StaticResource>Pills</StaticResource>
-      <StaticResourcePath>staticresources/Pills/Pills/Oxybutynin/Oxybutynin14.jpg</StaticResourcePath>
-    </StaticZipItem>
-    <StaticZipItem Include="staticresources/Pills/Pills/Oxybutynin/Oxybutynin15.JPG">
-      <PhysicalRelativePath>resource-bundles/Pills/Pills/Oxybutynin/Oxybutynin15.JPG</PhysicalRelativePath>
-      <SubType>StaticResourceZipItem</SubType>
-      <StaticResource>Pills</StaticResource>
-      <StaticResourcePath>staticresources/Pills/Pills/Oxybutynin/Oxybutynin15.JPG</StaticResourcePath>
-    </StaticZipItem>
-    <StaticZipItem Include="staticresources/Pills/Pills/Oxybutynin/Oxybutynin2.jpg">
-      <PhysicalRelativePath>resource-bundles/Pills/Pills/Oxybutynin/Oxybutynin2.jpg</PhysicalRelativePath>
-      <SubType>StaticResourceZipItem</SubType>
-      <StaticResource>Pills</StaticResource>
-      <StaticResourcePath>staticresources/Pills/Pills/Oxybutynin/Oxybutynin2.jpg</StaticResourcePath>
-    </StaticZipItem>
-    <StaticZipItem Include="staticresources/Pills/Pills/Oxybutynin/Oxybutynin3.JPG">
-      <PhysicalRelativePath>resource-bundles/Pills/Pills/Oxybutynin/Oxybutynin3.JPG</PhysicalRelativePath>
-      <SubType>StaticResourceZipItem</SubType>
-      <StaticResource>Pills</StaticResource>
-      <StaticResourcePath>staticresources/Pills/Pills/Oxybutynin/Oxybutynin3.JPG</StaticResourcePath>
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Lorazepam/Lorazepam14.JPG</PhysicalRelativePath>
     </StaticZipItem>
     <StaticZipItem Include="staticresources/Pills/Pills/Oxybutynin/Oxybutynin4.JPG">
-      <PhysicalRelativePath>resource-bundles/Pills/Pills/Oxybutynin/Oxybutynin4.JPG</PhysicalRelativePath>
-      <SubType>StaticResourceZipItem</SubType>
       <StaticResource>Pills</StaticResource>
       <StaticResourcePath>staticresources/Pills/Pills/Oxybutynin/Oxybutynin4.JPG</StaticResourcePath>
+      <MetadataType>StaticResourceZipItem</MetadataType>
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Oxybutynin/Oxybutynin4.JPG</PhysicalRelativePath>
     </StaticZipItem>
     <StaticZipItem Include="staticresources/Pills/Pills/Oxybutynin/Oxybutynin5.jpg">
-      <PhysicalRelativePath>resource-bundles/Pills/Pills/Oxybutynin/Oxybutynin5.jpg</PhysicalRelativePath>
-      <SubType>StaticResourceZipItem</SubType>
       <StaticResource>Pills</StaticResource>
       <StaticResourcePath>staticresources/Pills/Pills/Oxybutynin/Oxybutynin5.jpg</StaticResourcePath>
-    </StaticZipItem>
-    <StaticZipItem Include="staticresources/Pills/Pills/Oxybutynin/Oxybutynin6.JPG">
-      <PhysicalRelativePath>resource-bundles/Pills/Pills/Oxybutynin/Oxybutynin6.JPG</PhysicalRelativePath>
+      <MetadataType>StaticResourceZipItem</MetadataType>
       <SubType>StaticResourceZipItem</SubType>
-      <StaticResource>Pills</StaticResource>
-      <StaticResourcePath>staticresources/Pills/Pills/Oxybutynin/Oxybutynin6.JPG</StaticResourcePath>
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Oxybutynin/Oxybutynin5.jpg</PhysicalRelativePath>
     </StaticZipItem>
     <StaticZipItem Include="staticresources/Pills/Pills/Oxybutynin/Oxybutynin7.JPG">
-      <PhysicalRelativePath>resource-bundles/Pills/Pills/Oxybutynin/Oxybutynin7.JPG</PhysicalRelativePath>
-      <SubType>StaticResourceZipItem</SubType>
       <StaticResource>Pills</StaticResource>
       <StaticResourcePath>staticresources/Pills/Pills/Oxybutynin/Oxybutynin7.JPG</StaticResourcePath>
+      <MetadataType>StaticResourceZipItem</MetadataType>
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Oxybutynin/Oxybutynin7.JPG</PhysicalRelativePath>
     </StaticZipItem>
     <StaticZipItem Include="staticresources/Pills/Pills/Oxybutynin/Oxybutynin8.jpeg">
-      <PhysicalRelativePath>resource-bundles/Pills/Pills/Oxybutynin/Oxybutynin8.jpeg</PhysicalRelativePath>
-      <SubType>StaticResourceZipItem</SubType>
       <StaticResource>Pills</StaticResource>
       <StaticResourcePath>staticresources/Pills/Pills/Oxybutynin/Oxybutynin8.jpeg</StaticResourcePath>
+      <MetadataType>StaticResourceZipItem</MetadataType>
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Oxybutynin/Oxybutynin8.jpeg</PhysicalRelativePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Oxybutynin/Oxybutynin6.JPG">
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Oxybutynin/Oxybutynin6.JPG</StaticResourcePath>
+      <MetadataType>StaticResourceZipItem</MetadataType>
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Oxybutynin/Oxybutynin6.JPG</PhysicalRelativePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Oxybutynin/Oxybutynin2.jpg">
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Oxybutynin/Oxybutynin2.jpg</StaticResourcePath>
+      <MetadataType>StaticResourceZipItem</MetadataType>
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Oxybutynin/Oxybutynin2.jpg</PhysicalRelativePath>
     </StaticZipItem>
     <StaticZipItem Include="staticresources/Pills/Pills/Oxybutynin/Oxybutynin9.jpeg">
-      <PhysicalRelativePath>resource-bundles/Pills/Pills/Oxybutynin/Oxybutynin9.jpeg</PhysicalRelativePath>
-      <SubType>StaticResourceZipItem</SubType>
       <StaticResource>Pills</StaticResource>
       <StaticResourcePath>staticresources/Pills/Pills/Oxybutynin/Oxybutynin9.jpeg</StaticResourcePath>
+      <MetadataType>StaticResourceZipItem</MetadataType>
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Oxybutynin/Oxybutynin9.jpeg</PhysicalRelativePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Oxybutynin/Oxybutynin3.JPG">
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Oxybutynin/Oxybutynin3.JPG</StaticResourcePath>
+      <MetadataType>StaticResourceZipItem</MetadataType>
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Oxybutynin/Oxybutynin3.JPG</PhysicalRelativePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Oxybutynin/Oxybutynin1.JPG">
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Oxybutynin/Oxybutynin1.JPG</StaticResourcePath>
+      <MetadataType>StaticResourceZipItem</MetadataType>
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Oxybutynin/Oxybutynin1.JPG</PhysicalRelativePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Oxybutynin/Oxybutynin12.jpeg">
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Oxybutynin/Oxybutynin12.jpeg</StaticResourcePath>
+      <MetadataType>StaticResourceZipItem</MetadataType>
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Oxybutynin/Oxybutynin12.jpeg</PhysicalRelativePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Oxybutynin/Oxybutynin11.jpeg">
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Oxybutynin/Oxybutynin11.jpeg</StaticResourcePath>
+      <MetadataType>StaticResourceZipItem</MetadataType>
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Oxybutynin/Oxybutynin11.jpeg</PhysicalRelativePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Oxybutynin/Oxybutynin15.JPG">
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Oxybutynin/Oxybutynin15.JPG</StaticResourcePath>
+      <MetadataType>StaticResourceZipItem</MetadataType>
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Oxybutynin/Oxybutynin15.JPG</PhysicalRelativePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Oxybutynin/Oxybutynin14.jpg">
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Oxybutynin/Oxybutynin14.jpg</StaticResourcePath>
+      <MetadataType>StaticResourceZipItem</MetadataType>
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Oxybutynin/Oxybutynin14.jpg</PhysicalRelativePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Oxybutynin/Oxybutynin13.JPG">
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Oxybutynin/Oxybutynin13.JPG</StaticResourcePath>
+      <MetadataType>StaticResourceZipItem</MetadataType>
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Oxybutynin/Oxybutynin13.JPG</PhysicalRelativePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol6.JPG">
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol6.JPG</StaticResourcePath>
+      <MetadataType>StaticResourceZipItem</MetadataType>
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Ethinylestradiol/Ethinylestradiol6.JPG</PhysicalRelativePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol7.JPG">
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol7.JPG</StaticResourcePath>
+      <MetadataType>StaticResourceZipItem</MetadataType>
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Ethinylestradiol/Ethinylestradiol7.JPG</PhysicalRelativePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol3.JPG">
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol3.JPG</StaticResourcePath>
+      <MetadataType>StaticResourceZipItem</MetadataType>
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Ethinylestradiol/Ethinylestradiol3.JPG</PhysicalRelativePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol2.JPG">
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol2.JPG</StaticResourcePath>
+      <MetadataType>StaticResourceZipItem</MetadataType>
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Ethinylestradiol/Ethinylestradiol2.JPG</PhysicalRelativePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol1.jpg">
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol1.jpg</StaticResourcePath>
+      <MetadataType>StaticResourceZipItem</MetadataType>
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Ethinylestradiol/Ethinylestradiol1.jpg</PhysicalRelativePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol11.jpg">
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol11.jpg</StaticResourcePath>
+      <MetadataType>StaticResourceZipItem</MetadataType>
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Ethinylestradiol/Ethinylestradiol11.jpg</PhysicalRelativePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol10.jpeg">
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol10.jpeg</StaticResourcePath>
+      <MetadataType>StaticResourceZipItem</MetadataType>
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Ethinylestradiol/Ethinylestradiol10.jpeg</PhysicalRelativePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol12.jpg">
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol12.jpg</StaticResourcePath>
+      <MetadataType>StaticResourceZipItem</MetadataType>
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Ethinylestradiol/Ethinylestradiol12.jpg</PhysicalRelativePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol13.jpg">
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol13.jpg</StaticResourcePath>
+      <MetadataType>StaticResourceZipItem</MetadataType>
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Ethinylestradiol/Ethinylestradiol13.jpg</PhysicalRelativePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol14.JPG">
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol14.JPG</StaticResourcePath>
+      <MetadataType>StaticResourceZipItem</MetadataType>
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Ethinylestradiol/Ethinylestradiol14.JPG</PhysicalRelativePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol15.jpg">
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol15.jpg</StaticResourcePath>
+      <MetadataType>StaticResourceZipItem</MetadataType>
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Ethinylestradiol/Ethinylestradiol15.jpg</PhysicalRelativePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol9.jpeg">
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol9.jpeg</StaticResourcePath>
+      <MetadataType>StaticResourceZipItem</MetadataType>
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Ethinylestradiol/Ethinylestradiol9.jpeg</PhysicalRelativePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol5.jpeg">
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol5.jpeg</StaticResourcePath>
+      <MetadataType>StaticResourceZipItem</MetadataType>
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Ethinylestradiol/Ethinylestradiol5.jpeg</PhysicalRelativePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol4.jpeg">
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol4.jpeg</StaticResourcePath>
+      <MetadataType>StaticResourceZipItem</MetadataType>
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Ethinylestradiol/Ethinylestradiol4.jpeg</PhysicalRelativePath>
+    </StaticZipItem>
+    <StaticZipItem Include="staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol8.jpeg">
+      <StaticResource>Pills</StaticResource>
+      <StaticResourcePath>staticresources/Pills/Pills/Ethinylestradiol/Ethinylestradiol8.jpeg</StaticResourcePath>
+      <MetadataType>StaticResourceZipItem</MetadataType>
+      <SubType>StaticResourceZipItem</SubType>
+      <PhysicalRelativePath>resource-bundles/Pills/Pills/Ethinylestradiol/Ethinylestradiol8.jpeg</PhysicalRelativePath>
     </StaticZipItem>
     <StaticZipItem Include="staticresources/TWS_Sync_Data/TWS_Sync_Data.twssd">
       <StaticResource>TWS_Sync_Data</StaticResource>

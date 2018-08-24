@@ -223,6 +223,9 @@
     <label>Insured Item</label>
     <listViews>
         <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Substance_Name__c</columns>
+        <columns>Product_NDC__c</columns>
         <filterScope>Everything</filterScope>
         <label>All</label>
     </listViews>
@@ -232,7 +235,19 @@
         <type>Text</type>
     </nameField>
     <pluralLabel>Insured Items</pluralLabel>
-    <searchLayouts/>
+    <searchLayouts>
+        <customTabListAdditionalFields>Substance_Name__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Product_NDC__c</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>Substance_Name__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Product_NDC__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Substance_Name__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Product_NDC__c</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>Substance_Name__c</searchFilterFields>
+        <searchFilterFields>Product_NDC__c</searchFilterFields>
+        <searchResultsAdditionalFields>Substance_Name__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Product_NDC__c</searchResultsAdditionalFields>
+    </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

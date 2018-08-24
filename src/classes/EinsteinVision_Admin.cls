@@ -35,12 +35,14 @@ public class EinsteinVision_Admin {
     
     @AuraEnabled
     public static void getPillPrediction(Id pillId, String fileName, String base64) {
-        Blob fileBlob = EncodingUtil.base64Decode(base64);
+        Blob fileBlob = EncodingUtil.base64Decode(String.escapeSingleQuotes(base64));
         getPillPrediction('Pills', pillId, fileName, fileBlob);
     }
     @TestVisible
     private static void getPillPrediction(String datasetName, Id pillId, String fileName, Blob fileBlob)
     {
+        String pillIdClean = String.escapeSingleQuotes(pillId);
+        
         EinsteinVision_PredictionService service = new EinsteinVision_PredictionService();
         EinsteinVision_Dataset[] datasets = service.getDatasets();
         for (EinsteinVision_Dataset dataset : datasets) {
@@ -53,7 +55,7 @@ public class EinsteinVision_Admin {
                 if (Schema.SObjectType.Pill__c.isAccessible()
                    && Schema.SObjectType.Attachment.isAccessible())
                 {
-                    Pill__c pill = [SELECT Id FROM Pill__C WHERE Id=:pillId];
+                    Pill__c pill = [SELECT Id FROM Pill__C WHERE Id=:pillIdClean];
                     if (Schema.SObjectType.Pill__c.fields.Predicted_Drug_Name__c.isUpdateable())
                     {
                         pill.Predicted_Drug_Name__c = probability.label;
@@ -65,12 +67,12 @@ public class EinsteinVision_Admin {
                        	&& Schema.SObjectType.Attachment.fields.ParentId.isUpdateable()
                        	&& Schema.SObjectType.Attachment.fields.Name.isUpdateable())
                     {
-                        Attachment[] attsOld = [SELECT Id FROM Attachment WHERE ParentId=:pillId];
+                        Attachment[] attsOld = [SELECT Id FROM Attachment WHERE ParentId=:pillIdClean];
                         delete attsOld;
                         Attachment att = new Attachment();
                         att.Body = fileBlob;
-                        att.ParentId = pill.Id;
-                        att.Name = fileName;
+                        att.ParentId = String.escapeSingleQuotes(pill.Id);
+                        att.Name = String.escapeSingleQuotes(fileName);
                         insert att;
                     }
                 }

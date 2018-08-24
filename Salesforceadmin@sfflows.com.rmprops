@@ -290,13 +290,13 @@
         <RemoteItemProperties>
             <ItemKey>src\classes\EinsteinVision_Admin.cls</ItemKey>
             <Id>01p1J000005opO8QAI</Id>
-            <Hash>Xn8hN/8ONo0eIlaPMFuGFQ==</Hash>
-            <LastModifiedDateUtcTicks>131796135250000000</LastModifiedDateUtcTicks>
+            <Hash>KjcO0L2gs6Csv412/Twx2Q==</Hash>
+            <LastModifiedDateUtcTicks>131796209170000000</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\classes\EinsteinVision_Admin.cls-meta.xml</ItemKey>
             <Hash>Zq3gQSxTZehdIucyITjunw==</Hash>
-            <LastModifiedDateUtcTicks>131796135250000000</LastModifiedDateUtcTicks>
+            <LastModifiedDateUtcTicks>131796209170000000</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\classes\EinsteinVision_ApiUsage.cls</ItemKey>
@@ -720,67 +720,43 @@
             <ItemKey>src\objects\EinsteinAI_Settings__c.object</ItemKey>
             <Id>01I1J000001yos0UAA</Id>
             <Hash>0K/4zIFuvCy+y/mQlOVJDA==</Hash>
-            <LastModifiedDateUtcTicks>131793478373854580</LastModifiedDateUtcTicks>
+            <LastModifiedDateUtcTicks>131796194575394010</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\objects\Einstein_Settings__c.object</ItemKey>
             <Id>01I1J000001yosKUAQ</Id>
             <Hash>ZbxCvfQWnJYnwf6pqqsEBw==</Hash>
-            <LastModifiedDateUtcTicks>131793478373854510</LastModifiedDateUtcTicks>
+            <LastModifiedDateUtcTicks>131796194575393590</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\objects\Formulary_Association__c.object</ItemKey>
             <Id>01I1J000001yo5nUAA</Id>
-            <Hash>B9/hytrHqGzQNweUAladrA==</Hash>
-            <LastModifiedDateUtcTicks>131793478373854530</LastModifiedDateUtcTicks>
+            <Hash>N9RzicpBCALymHU1ajqEdg==</Hash>
+            <LastModifiedDateUtcTicks>131796194575393070</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\objects\Insured_Item__c.object</ItemKey>
             <Id>01I1J000001yo6MUAQ</Id>
-            <Hash>kDSHqwOqNOPbzZXjUohmKg==</Hash>
-            <LastModifiedDateUtcTicks>131793478373854590</LastModifiedDateUtcTicks>
+            <Hash>auUTqXsaK8EWvGKpGuTHhQ==</Hash>
+            <LastModifiedDateUtcTicks>131796194575392970</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\objects\My_Formulary__c.object</ItemKey>
             <Id>01I1J000001yo59UAA</Id>
             <Hash>gBu+PZMl0NJ3wT/sy0PWtg==</Hash>
-            <LastModifiedDateUtcTicks>131793478373854610</LastModifiedDateUtcTicks>
+            <LastModifiedDateUtcTicks>131796194575394160</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\objects\My_Prescription__c.object</ItemKey>
             <Id>01I1J000001yo5OUAQ</Id>
             <Hash>H+Vs2JKgYA6hBE0xUcWSDQ==</Hash>
-            <LastModifiedDateUtcTicks>131795964551440880</LastModifiedDateUtcTicks>
+            <LastModifiedDateUtcTicks>131796194575393560</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\objects\Pill__c.object</ItemKey>
             <Id>01I1J000001yoAnUAI</Id>
             <Hash>isTbgR6punG3x3qylc0ONA==</Hash>
-            <LastModifiedDateUtcTicks>131795964551441330</LastModifiedDateUtcTicks>
-        </RemoteItemProperties>
-        <RemoteItemProperties>
-            <ItemKey>resource-bundles\greenCircle.png</ItemKey>
-            <Id>0811J000001NaStQAK</Id>
-            <Hash>DRd+SYhngxgMXshNn0YaQA==</Hash>
-            <LastModifiedDateUtcTicks>131770296120000000</LastModifiedDateUtcTicks>
-        </RemoteItemProperties>
-        <RemoteItemProperties>
-            <ItemKey>resource-bundles\identifyPillC.png</ItemKey>
-            <Id>0811J000001NaZVQA0</Id>
-            <Hash>aUVI1iUt7S/RGSwgcFgkgQ==</Hash>
-            <LastModifiedDateUtcTicks>131771991530000000</LastModifiedDateUtcTicks>
-        </RemoteItemProperties>
-        <RemoteItemProperties>
-            <ItemKey>resource-bundles\redCircle.png</ItemKey>
-            <Id>0811J000001NaSoQAK</Id>
-            <Hash>kVsq8E+mMY5mTLGq3PycpQ==</Hash>
-            <LastModifiedDateUtcTicks>131770295940000000</LastModifiedDateUtcTicks>
-        </RemoteItemProperties>
-        <RemoteItemProperties>
-            <ItemKey>resource-bundles\takePill.png</ItemKey>
-            <Id>0811J000001NaZaQAK</Id>
-            <Hash>NsQv0j7iGezd2U7xFPooyQ==</Hash>
-            <LastModifiedDateUtcTicks>131771991660000000</LastModifiedDateUtcTicks>
+            <LastModifiedDateUtcTicks>131796194575392920</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\classes\PillTrigger_TEST.cls</ItemKey>
@@ -954,409 +930,409 @@
             <ItemKey>src\objects\Account.object</ItemKey>
             <Id>000000000000000AAA</Id>
             <Hash>PQhF4RKGYCQ1aYCNLGmFZQ==</Hash>
-            <LastModifiedDateUtcTicks>131795964602781550</LastModifiedDateUtcTicks>
+            <LastModifiedDateUtcTicks>131796194575392210</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\objects\Task.object</ItemKey>
             <Id>000000000000000AAA</Id>
             <Hash>gjwp/nNtAck/x1xBVHRHsA==</Hash>
-            <LastModifiedDateUtcTicks>131795964602781630</LastModifiedDateUtcTicks>
+            <LastModifiedDateUtcTicks>131796194575392320</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\objects\CollaborationGroup.object</ItemKey>
             <Id>000000000000000AAA</Id>
             <Hash>tccf0uD2ZYkE+dlU3bENBA==</Hash>
-            <LastModifiedDateUtcTicks>131795964602781660</LastModifiedDateUtcTicks>
+            <LastModifiedDateUtcTicks>131796194575392290</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\objects\OpportunityLineItem.object</ItemKey>
             <Id>000000000000000AAA</Id>
             <Hash>GGcwJdkUTrQE+5pdk/Ki1g==</Hash>
-            <LastModifiedDateUtcTicks>131795964602781680</LastModifiedDateUtcTicks>
+            <LastModifiedDateUtcTicks>131796194575392380</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\objects\ForecastingCategoryMapping.object</ItemKey>
             <Id>000000000000000AAA</Id>
             <Hash>QcdL/dv3BYOeOlPQImw9dg==</Hash>
-            <LastModifiedDateUtcTicks>131795964602781700</LastModifiedDateUtcTicks>
+            <LastModifiedDateUtcTicks>131796194575392350</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\objects\CaseContactRole.object</ItemKey>
             <Id>000000000000000AAA</Id>
             <Hash>zgRn6AROIa8KlNqrNcUd6A==</Hash>
-            <LastModifiedDateUtcTicks>131795964602781720</LastModifiedDateUtcTicks>
+            <LastModifiedDateUtcTicks>131796194575392400</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\objects\Activity.object</ItemKey>
             <Id>000000000000000AAA</Id>
             <Hash>GzWOOPQGNNDL3v6qML4vkQ==</Hash>
-            <LastModifiedDateUtcTicks>131795964602781740</LastModifiedDateUtcTicks>
+            <LastModifiedDateUtcTicks>131796194575392430</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\objects\ChannelProgram.object</ItemKey>
             <Id>000000000000000AAA</Id>
             <Hash>AdkYrEsUqBR2PIye6OBR8g==</Hash>
-            <LastModifiedDateUtcTicks>131795964602781760</LastModifiedDateUtcTicks>
+            <LastModifiedDateUtcTicks>131796194575392460</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\objects\ContactCleanInfo.object</ItemKey>
             <Id>000000000000000AAA</Id>
             <Hash>Rzhbax0RuOH5fRQNBguf6w==</Hash>
-            <LastModifiedDateUtcTicks>131795964602781780</LastModifiedDateUtcTicks>
+            <LastModifiedDateUtcTicks>131796194575392490</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\objects\ScorecardMetric.object</ItemKey>
             <Id>000000000000000AAA</Id>
             <Hash>Kv8r28YbbRvgsjRC67jjRQ==</Hash>
-            <LastModifiedDateUtcTicks>131795964602781800</LastModifiedDateUtcTicks>
+            <LastModifiedDateUtcTicks>131796194575392510</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\objects\PartnerFundAllocation.object</ItemKey>
             <Id>000000000000000AAA</Id>
             <Hash>cBM1WyVgpcCcNRnVqzEFcA==</Hash>
-            <LastModifiedDateUtcTicks>131795964602781820</LastModifiedDateUtcTicks>
+            <LastModifiedDateUtcTicks>131796194575392540</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\objects\FeedItem.object</ItemKey>
             <Id>000000000000000AAA</Id>
             <Hash>eYvFHqaKX0nla9q9pl6/0g==</Hash>
-            <LastModifiedDateUtcTicks>131795964602781840</LastModifiedDateUtcTicks>
+            <LastModifiedDateUtcTicks>131796194575392590</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\objects\ContractContactRole.object</ItemKey>
             <Id>000000000000000AAA</Id>
             <Hash>XvxbTR1nH2lX6Ccc7NO3sg==</Hash>
-            <LastModifiedDateUtcTicks>131795964602781860</LastModifiedDateUtcTicks>
+            <LastModifiedDateUtcTicks>131796194575392560</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\objects\ExchangeUserMapping.object</ItemKey>
             <Id>000000000000000AAA</Id>
             <Hash>lhT1FxNnkk0itU1ZBqougw==</Hash>
-            <LastModifiedDateUtcTicks>131795964602781880</LastModifiedDateUtcTicks>
+            <LastModifiedDateUtcTicks>131796194575392620</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\objects\SocialPersona.object</ItemKey>
             <Id>000000000000000AAA</Id>
             <Hash>NDLv5tG89s0uFEdNVWMP0Q==</Hash>
-            <LastModifiedDateUtcTicks>131795964602781900</LastModifiedDateUtcTicks>
+            <LastModifiedDateUtcTicks>131796194575392640</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\objects\Asset.object</ItemKey>
             <Id>000000000000000AAA</Id>
             <Hash>A8GD9BFcHKtfpKLO7jUizQ==</Hash>
-            <LastModifiedDateUtcTicks>131795964602781920</LastModifiedDateUtcTicks>
+            <LastModifiedDateUtcTicks>131796194575392660</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\objects\CampaignMember.object</ItemKey>
             <Id>000000000000000AAA</Id>
             <Hash>5zYr3GIZw0c6++1EjPPaLA==</Hash>
-            <LastModifiedDateUtcTicks>131795964602781940</LastModifiedDateUtcTicks>
+            <LastModifiedDateUtcTicks>131796194575392690</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\objects\PartnerFundClaim.object</ItemKey>
             <Id>000000000000000AAA</Id>
             <Hash>fPmqqzZIq4rlqKYLYVcKEg==</Hash>
-            <LastModifiedDateUtcTicks>131795964602781950</LastModifiedDateUtcTicks>
+            <LastModifiedDateUtcTicks>131796194575392710</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\objects\Order.object</ItemKey>
             <Id>000000000000000AAA</Id>
             <Hash>JU/SrbkZGk8ddiEoriBjbQ==</Hash>
-            <LastModifiedDateUtcTicks>131795964602781970</LastModifiedDateUtcTicks>
+            <LastModifiedDateUtcTicks>131796194575392760</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\objects\CollaborationGroupMember.object</ItemKey>
             <Id>000000000000000AAA</Id>
             <Hash>ka+S8IQwEfCl9RxIDYdwBQ==</Hash>
-            <LastModifiedDateUtcTicks>131795964602781990</LastModifiedDateUtcTicks>
+            <LastModifiedDateUtcTicks>131796194575392740</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\objects\StreamingChannel.object</ItemKey>
             <Id>000000000000000AAA</Id>
             <Hash>Aq2Iad8VhQktQuH/oEK3QQ==</Hash>
-            <LastModifiedDateUtcTicks>131795964602782010</LastModifiedDateUtcTicks>
+            <LastModifiedDateUtcTicks>131796194575392820</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\objects\AccountContactRole.object</ItemKey>
             <Id>000000000000000AAA</Id>
             <Hash>g3YBxAMWYuOKCbV8ywuIQg==</Hash>
-            <LastModifiedDateUtcTicks>131795964602782030</LastModifiedDateUtcTicks>
+            <LastModifiedDateUtcTicks>131796194575392790</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\objects\EmailMessage.object</ItemKey>
             <Id>000000000000000AAA</Id>
             <Hash>3kUI8LWJ8RvwlGG3navq0Q==</Hash>
-            <LastModifiedDateUtcTicks>131795964602782050</LastModifiedDateUtcTicks>
+            <LastModifiedDateUtcTicks>131796194575392850</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\objects\AccountCleanInfo.object</ItemKey>
             <Id>000000000000000AAA</Id>
             <Hash>/uYbk7Xa3gTiAfu1ZHv2oA==</Hash>
-            <LastModifiedDateUtcTicks>131795964602782070</LastModifiedDateUtcTicks>
+            <LastModifiedDateUtcTicks>131796194575392870</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\objects\Pricebook2.object</ItemKey>
             <Id>000000000000000AAA</Id>
             <Hash>Lbe4DZ2TQjuHbcYhQw91Ag==</Hash>
-            <LastModifiedDateUtcTicks>131795964602782090</LastModifiedDateUtcTicks>
+            <LastModifiedDateUtcTicks>131796194575392900</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\objects\UserProvisioningRequest.object</ItemKey>
             <Id>000000000000000AAA</Id>
             <Hash>rxs6XqecddZ7uiaDke45IA==</Hash>
-            <LastModifiedDateUtcTicks>131795964602782110</LastModifiedDateUtcTicks>
+            <LastModifiedDateUtcTicks>131796194575392950</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\objects\PartnerFundRequest.object</ItemKey>
             <Id>000000000000000AAA</Id>
             <Hash>Iao93K2pwiMGM2BhF4gv9Q==</Hash>
-            <LastModifiedDateUtcTicks>131795964602782130</LastModifiedDateUtcTicks>
+            <LastModifiedDateUtcTicks>131796194575393020</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\objects\PricebookEntry.object</ItemKey>
             <Id>000000000000000AAA</Id>
             <Hash>JHoQMeExyjK355gh0aGVIw==</Hash>
-            <LastModifiedDateUtcTicks>131795964602782150</LastModifiedDateUtcTicks>
+            <LastModifiedDateUtcTicks>131796194575393050</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\objects\OrgDeleteRequest.object</ItemKey>
             <Id>000000000000000AAA</Id>
             <Hash>lhT1FxNnkk0itU1ZBqougw==</Hash>
-            <LastModifiedDateUtcTicks>131795964602782170</LastModifiedDateUtcTicks>
+            <LastModifiedDateUtcTicks>131796194575393000</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\objects\LeadCleanInfo.object</ItemKey>
             <Id>000000000000000AAA</Id>
             <Hash>kSZ4gYBygd/HHR2srMToNg==</Hash>
-            <LastModifiedDateUtcTicks>131795964602782190</LastModifiedDateUtcTicks>
+            <LastModifiedDateUtcTicks>131796194575393160</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\objects\Campaign.object</ItemKey>
             <Id>000000000000000AAA</Id>
             <Hash>NZIAI91unm56t06ntYBRsQ==</Hash>
-            <LastModifiedDateUtcTicks>131795964602782210</LastModifiedDateUtcTicks>
+            <LastModifiedDateUtcTicks>131796194575393100</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\objects\Idea.object</ItemKey>
             <Id>000000000000000AAA</Id>
             <Hash>wpVtbzEwtLEP45Gg6+Bwtw==</Hash>
-            <LastModifiedDateUtcTicks>131795964602782230</LastModifiedDateUtcTicks>
+            <LastModifiedDateUtcTicks>131796194575393190</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\objects\Contract.object</ItemKey>
             <Id>000000000000000AAA</Id>
             <Hash>gk6d1t0/vAifpZZy+a0YbA==</Hash>
-            <LastModifiedDateUtcTicks>131795964602782250</LastModifiedDateUtcTicks>
+            <LastModifiedDateUtcTicks>131796194575393210</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\objects\ScorecardAssociation.object</ItemKey>
             <Id>000000000000000AAA</Id>
             <Hash>yq6PVaWCBjQlNIRqTc+qcw==</Hash>
-            <LastModifiedDateUtcTicks>131795964602782260</LastModifiedDateUtcTicks>
+            <LastModifiedDateUtcTicks>131796194575393240</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\objects\OpportunityCompetitor.object</ItemKey>
             <Id>000000000000000AAA</Id>
             <Hash>int9uNh+JqnwNmPf2/MQDA==</Hash>
-            <LastModifiedDateUtcTicks>131795964602782280</LastModifiedDateUtcTicks>
+            <LastModifiedDateUtcTicks>131796194575393270</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\objects\PartnerRole.object</ItemKey>
             <Id>000000000000000AAA</Id>
             <Hash>deqMzHwVGwecSsKfv0e5mg==</Hash>
-            <LastModifiedDateUtcTicks>131795964602782300</LastModifiedDateUtcTicks>
+            <LastModifiedDateUtcTicks>131796194575393290</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\objects\MacroAction.object</ItemKey>
             <Id>000000000000000AAA</Id>
             <Hash>Rzhbax0RuOH5fRQNBguf6w==</Hash>
-            <LastModifiedDateUtcTicks>131795964602782320</LastModifiedDateUtcTicks>
+            <LastModifiedDateUtcTicks>131796194575393320</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\objects\Site.object</ItemKey>
             <Id>000000000000000AAA</Id>
             <Hash>sPEqkemQYCtI5k8gA3Y2Dg==</Hash>
-            <LastModifiedDateUtcTicks>131795964602782340</LastModifiedDateUtcTicks>
+            <LastModifiedDateUtcTicks>131796194575393340</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\objects\User.object</ItemKey>
             <Id>000000000000000AAA</Id>
             <Hash>6m9WolyfyP9UQVTEnQyYVA==</Hash>
-            <LastModifiedDateUtcTicks>131795964602782360</LastModifiedDateUtcTicks>
+            <LastModifiedDateUtcTicks>131796194575393370</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\objects\AccountBrand.object</ItemKey>
             <Id>000000000000000AAA</Id>
             <Hash>cicj9RzsY6miVzwvGGTFrg==</Hash>
-            <LastModifiedDateUtcTicks>131795964602782380</LastModifiedDateUtcTicks>
+            <LastModifiedDateUtcTicks>131796194575393390</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\objects\Product2.object</ItemKey>
             <Id>000000000000000AAA</Id>
             <Hash>N84gT6OMLRWGjb1A3ZsMzg==</Hash>
-            <LastModifiedDateUtcTicks>131795964602782400</LastModifiedDateUtcTicks>
+            <LastModifiedDateUtcTicks>131796194575393420</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\objects\Macro.object</ItemKey>
             <Id>000000000000000AAA</Id>
             <Hash>8hQROMLkbpvWFelF54kZ1w==</Hash>
-            <LastModifiedDateUtcTicks>131795964602782420</LastModifiedDateUtcTicks>
+            <LastModifiedDateUtcTicks>131796194575393440</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\objects\PartnerMarketingBudget.object</ItemKey>
             <Id>000000000000000AAA</Id>
             <Hash>1JmAOis1GvW9Ce/DeAnQxA==</Hash>
-            <LastModifiedDateUtcTicks>131795964602782440</LastModifiedDateUtcTicks>
+            <LastModifiedDateUtcTicks>131796194575393470</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\objects\MacroInstruction.object</ItemKey>
             <Id>000000000000000AAA</Id>
             <Hash>Rzhbax0RuOH5fRQNBguf6w==</Hash>
-            <LastModifiedDateUtcTicks>131795964602782460</LastModifiedDateUtcTicks>
+            <LastModifiedDateUtcTicks>131796194575393490</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\objects\DuplicateRecordItem.object</ItemKey>
             <Id>000000000000000AAA</Id>
             <Hash>M+FV2bXiciSWu4jj9ROPkQ==</Hash>
-            <LastModifiedDateUtcTicks>131795964602782470</LastModifiedDateUtcTicks>
+            <LastModifiedDateUtcTicks>131796194575393510</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\objects\Case.object</ItemKey>
             <Id>000000000000000AAA</Id>
             <Hash>lTuJhaHyLaXfkXfl2VFoKw==</Hash>
-            <LastModifiedDateUtcTicks>131795964602782490</LastModifiedDateUtcTicks>
+            <LastModifiedDateUtcTicks>131796194575393540</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\objects\NetworkMember.object</ItemKey>
             <Id>000000000000000AAA</Id>
             <Hash>U24WANmuGogztWOMF+eYww==</Hash>
-            <LastModifiedDateUtcTicks>131795964602782510</LastModifiedDateUtcTicks>
+            <LastModifiedDateUtcTicks>131796194575393610</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\objects\ContentVersion.object</ItemKey>
             <Id>000000000000000AAA</Id>
             <Hash>A/+DZCRbul1CgkvcWzGYyw==</Hash>
-            <LastModifiedDateUtcTicks>131795964602782530</LastModifiedDateUtcTicks>
+            <LastModifiedDateUtcTicks>131796194575393640</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\objects\Opportunity.object</ItemKey>
             <Id>000000000000000AAA</Id>
             <Hash>oUVwT5fnd98XZM6GS8dnZA==</Hash>
-            <LastModifiedDateUtcTicks>131795964602782550</LastModifiedDateUtcTicks>
+            <LastModifiedDateUtcTicks>131796194575393670</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\objects\Lead.object</ItemKey>
             <Id>000000000000000AAA</Id>
             <Hash>c4XEvaE+BKMTTB+/g/Bsig==</Hash>
-            <LastModifiedDateUtcTicks>131795964602782570</LastModifiedDateUtcTicks>
+            <LastModifiedDateUtcTicks>131796194575393690</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\objects\DuplicateRecordSet.object</ItemKey>
             <Id>000000000000000AAA</Id>
             <Hash>aWghiv1kgI9sMryYZAC4uw==</Hash>
-            <LastModifiedDateUtcTicks>131795964602782580</LastModifiedDateUtcTicks>
+            <LastModifiedDateUtcTicks>131796194575393710</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\objects\Scorecard.object</ItemKey>
             <Id>000000000000000AAA</Id>
             <Hash>DMNl+kWvxOyswWVRA0Sz1Q==</Hash>
-            <LastModifiedDateUtcTicks>131795964602782600</LastModifiedDateUtcTicks>
+            <LastModifiedDateUtcTicks>131796194575393740</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\objects\Topic.object</ItemKey>
             <Id>000000000000000AAA</Id>
             <Hash>OlT7WbAND3B5fMf+cKFohg==</Hash>
-            <LastModifiedDateUtcTicks>131795964602782620</LastModifiedDateUtcTicks>
+            <LastModifiedDateUtcTicks>131796194575393760</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\objects\Solution.object</ItemKey>
             <Id>000000000000000AAA</Id>
             <Hash>vgZJXrId26tebkQFIU0K0Q==</Hash>
-            <LastModifiedDateUtcTicks>131795964602782640</LastModifiedDateUtcTicks>
+            <LastModifiedDateUtcTicks>131796194575393790</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\objects\StreamActivityAccess.object</ItemKey>
             <Id>000000000000000AAA</Id>
             <Hash>UqLnC898HA0H8HPVx8oSKg==</Hash>
-            <LastModifiedDateUtcTicks>131795964602782660</LastModifiedDateUtcTicks>
+            <LastModifiedDateUtcTicks>131796194575393860</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\objects\QuickText.object</ItemKey>
             <Id>000000000000000AAA</Id>
             <Hash>WRMK7Akfz7raemBHfN6bfA==</Hash>
-            <LastModifiedDateUtcTicks>131795964602782680</LastModifiedDateUtcTicks>
+            <LastModifiedDateUtcTicks>131796194575393840</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\objects\AssetRelationship.object</ItemKey>
             <Id>000000000000000AAA</Id>
             <Hash>/Fcrw8j0mn5hLD+TbZStcw==</Hash>
-            <LastModifiedDateUtcTicks>131795964602782700</LastModifiedDateUtcTicks>
+            <LastModifiedDateUtcTicks>131796194575393810</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\objects\DandBCompany.object</ItemKey>
             <Id>000000000000000AAA</Id>
             <Hash>akMlx3iLwszVCxa3r8rCKA==</Hash>
-            <LastModifiedDateUtcTicks>131795964602782720</LastModifiedDateUtcTicks>
+            <LastModifiedDateUtcTicks>131796194575393880</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\objects\OpportunityContactRole.object</ItemKey>
             <Id>000000000000000AAA</Id>
             <Hash>XvxbTR1nH2lX6Ccc7NO3sg==</Hash>
-            <LastModifiedDateUtcTicks>131795964602782740</LastModifiedDateUtcTicks>
+            <LastModifiedDateUtcTicks>131796194575393910</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\objects\Contact.object</ItemKey>
             <Id>000000000000000AAA</Id>
             <Hash>XcBFJpOIX2ubmNEDLeA4YA==</Hash>
-            <LastModifiedDateUtcTicks>131795964602782760</LastModifiedDateUtcTicks>
+            <LastModifiedDateUtcTicks>131796194575393930</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\objects\ChannelProgramLevel.object</ItemKey>
             <Id>000000000000000AAA</Id>
             <Hash>9prZpoIZ2iJ8Boe021jPIQ==</Hash>
-            <LastModifiedDateUtcTicks>131795964602782780</LastModifiedDateUtcTicks>
+            <LastModifiedDateUtcTicks>131796194575393960</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\objects\RequestsForAccessSIQ.object</ItemKey>
             <Id>000000000000000AAA</Id>
             <Hash>lhT1FxNnkk0itU1ZBqougw==</Hash>
-            <LastModifiedDateUtcTicks>131795964602782800</LastModifiedDateUtcTicks>
+            <LastModifiedDateUtcTicks>131796194575393980</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\objects\OrderItem.object</ItemKey>
             <Id>000000000000000AAA</Id>
             <Hash>i19DVwdx2q+CZhgi9FTwUg==</Hash>
-            <LastModifiedDateUtcTicks>131795964602782810</LastModifiedDateUtcTicks>
+            <LastModifiedDateUtcTicks>131796194575394040</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\objects\AssistantProgress.object</ItemKey>
             <Id>000000000000000AAA</Id>
             <Hash>lhT1FxNnkk0itU1ZBqougw==</Hash>
-            <LastModifiedDateUtcTicks>131795964602782830</LastModifiedDateUtcTicks>
+            <LastModifiedDateUtcTicks>131796194575394060</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\objects\Event.object</ItemKey>
             <Id>000000000000000AAA</Id>
             <Hash>s4PDflhYdis8XHZ8QGZtww==</Hash>
-            <LastModifiedDateUtcTicks>131795964602782850</LastModifiedDateUtcTicks>
+            <LastModifiedDateUtcTicks>131796194575394080</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\objects\RecordAction.object</ItemKey>
             <Id>000000000000000AAA</Id>
             <Hash>NfZ1AKqMm1RlvLhZqpMLfA==</Hash>
-            <LastModifiedDateUtcTicks>131795964602782870</LastModifiedDateUtcTicks>
+            <LastModifiedDateUtcTicks>131796194575394110</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\objects\TopicAssignment.object</ItemKey>
             <Id>000000000000000AAA</Id>
             <Hash>U24WANmuGogztWOMF+eYww==</Hash>
-            <LastModifiedDateUtcTicks>131795964602782890</LastModifiedDateUtcTicks>
+            <LastModifiedDateUtcTicks>131796194575394130</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\objects\ChannelProgramMember.object</ItemKey>
             <Id>000000000000000AAA</Id>
             <Hash>FXWj4i6awulZD37trUS9AA==</Hash>
-            <LastModifiedDateUtcTicks>131795964602782900</LastModifiedDateUtcTicks>
+            <LastModifiedDateUtcTicks>131796194575394180</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
             <ItemKey>src\tabs\My_Prescription__c.tab</ItemKey>
@@ -1755,6 +1731,30 @@
             <LastModifiedDateUtcTicks>131771850940000000</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
+            <ItemKey>resource-bundles\greenCircle.png</ItemKey>
+            <Id>0811J000001NaStQAK</Id>
+            <Hash>DRd+SYhngxgMXshNn0YaQA==</Hash>
+            <LastModifiedDateUtcTicks>131770296120000000</LastModifiedDateUtcTicks>
+        </RemoteItemProperties>
+        <RemoteItemProperties>
+            <ItemKey>resource-bundles\identifyPillC.png</ItemKey>
+            <Id>0811J000001NaZVQA0</Id>
+            <Hash>aUVI1iUt7S/RGSwgcFgkgQ==</Hash>
+            <LastModifiedDateUtcTicks>131771991530000000</LastModifiedDateUtcTicks>
+        </RemoteItemProperties>
+        <RemoteItemProperties>
+            <ItemKey>resource-bundles\redCircle.png</ItemKey>
+            <Id>0811J000001NaSoQAK</Id>
+            <Hash>kVsq8E+mMY5mTLGq3PycpQ==</Hash>
+            <LastModifiedDateUtcTicks>131770295940000000</LastModifiedDateUtcTicks>
+        </RemoteItemProperties>
+        <RemoteItemProperties>
+            <ItemKey>resource-bundles\takePill.png</ItemKey>
+            <Id>0811J000001NaZaQAK</Id>
+            <Hash>NsQv0j7iGezd2U7xFPooyQ==</Hash>
+            <LastModifiedDateUtcTicks>131771991660000000</LastModifiedDateUtcTicks>
+        </RemoteItemProperties>
+        <RemoteItemProperties>
             <ItemKey>Pills</ItemKey>
             <Id>0811J000000HY2QQAW</Id>
             <Hash>5LHgcPHhLlfFR9dIM6JbQg==</Hash>
@@ -1763,8 +1763,8 @@
         <RemoteItemProperties>
             <ItemKey>TWS_Sync_Data</ItemKey>
             <Id>0811J000000HY2VQAW</Id>
-            <Hash>40idSVGKCM+UPMkCDyaYWw==</Hash>
-            <LastModifiedDateUtcTicks>131795965250000000</LastModifiedDateUtcTicks>
+            <Hash>FHn8tKF8hOxWvXyIUxxT7g==</Hash>
+            <LastModifiedDateUtcTicks>131796194980000000</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
     </Items>
 </RemotePropertiesSet>

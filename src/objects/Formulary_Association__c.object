@@ -90,6 +90,9 @@
     <label>Formulary Association</label>
     <listViews>
         <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Formulary__c</columns>
+        <columns>Insured_Item__c</columns>
         <filterScope>Everything</filterScope>
         <label>All</label>
     </listViews>
@@ -99,7 +102,16 @@
         <type>Text</type>
     </nameField>
     <pluralLabel>Formulary Associations</pluralLabel>
-    <searchLayouts/>
+    <searchLayouts>
+        <customTabListAdditionalFields>Formulary__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Insured_Item__c</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>Formulary__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Insured_Item__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Formulary__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Insured_Item__c</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>Formulary__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Insured_Item__c</searchResultsAdditionalFields>
+    </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>
