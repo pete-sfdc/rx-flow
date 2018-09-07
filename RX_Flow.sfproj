@@ -129,6 +129,32 @@
     <Folder Include="flowDefinitions\" />
     <Folder Include="layouts\" />
     <Folder Include="staticresources\TWS_Sync_Data\" />
+    <Folder Include="aura\" />
+    <Folder Include="aura\defaultTokens\" />
+    <Folder Include="aura\EinsteinVision_Admin_UI\" />
+    <Folder Include="aura\EinsteinVision_Pill_Uploader\" />
+    <Folder Include="aura\EinsteinVision_Pill_Uploader_Flow\" />
+    <Folder Include="aura\EinsteinVision_Pill_Uploader_QA\" />
+    <Folder Include="aura\examplesDetail\" />
+    <Folder Include="aura\Lightning_Flow_Tiles\" />
+    <Folder Include="aura\scriptDisplayFSC\" />
+    <Folder Include="aura\scriptDisplayFSCsuccess\" />
+    <Folder Include="aura\ShelfScanCompleted\" />
+    <Folder Include="classes\" />
+    <Folder Include="triggers\" />
+    <Folder Include="objects\" />
+    <Folder Include="applications\" />
+    <Folder Include="tabs\" />
+    <Folder Include="flowDefinitions\" />
+    <Folder Include="layouts\" />
+    <Folder Include="staticresources\" />
+    <Folder Include="staticresources\Pills\" />
+    <Folder Include="staticresources\Pills\Pills\" />
+    <Folder Include="staticresources\Pills\Pills\Lorazepam\" />
+    <Folder Include="staticresources\Pills\Pills\Oxybutynin\" />
+    <Folder Include="staticresources\Pills\Pills\Ethinylestradiol\" />
+    <Folder Include="staticresources\TWS_Sync_Data\" />
+    <Folder Include="flows\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="aura/defaultTokens/defaultTokens.tokens">
@@ -1379,6 +1405,11 @@
       <MetadataType>Layout</MetadataType>
       <SubType>Layout</SubType>
       <PhysicalRelativePath>src/layouts/FeedItem-Feed Item Layout.layout</PhysicalRelativePath>
+    </Object>
+    <Object Include="flows/Pill_Taker-6.flow">
+      <MetadataType>Flow</MetadataType>
+      <SubType>Flow</SubType>
+      <PhysicalRelativePath>src/flows/Pill_Taker-6.flow</PhysicalRelativePath>
     </Object>
   </ItemGroup>
   <ItemGroup>

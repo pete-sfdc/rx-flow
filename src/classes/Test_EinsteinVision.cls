@@ -34,14 +34,14 @@ public with sharing class Test_EinsteinVision {
         try {
             dataset = service.createDataset('', labels);
         } catch (Exception e) {
-            System.assert(e.getTypeName().equals('EinsteinVision_StringIsEmptyException'));
+            System.assert(e.getTypeName().endsWith('EinsteinVision_StringIsEmptyException'));
         }
         
         // Test 3: Test EinsteinVision_StringIsEmptyException with null string for Dataset name
         try {
             dataset = service.createDataset(null, labels);
         } catch (Exception e) {
-            System.assert(e.getTypeName().equals('EinsteinVision_StringIsEmptyException'));
+            System.assert(e.getTypeName().endsWith('EinsteinVision_StringIsEmptyException'));
         }
         
         // Test 4: Test EinsteinVision_StringTooLongException Dataset name > 180 characters
@@ -49,14 +49,14 @@ public with sharing class Test_EinsteinVision {
             String nameTooLong = 'AbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefg';
             dataset = service.createDataset(nameTooLong, labels);
         } catch (Exception e) {
-            System.assert(e.getTypeName().equals('EinsteinVision_StringTooLongException'));
+            System.assert(e.getTypeName().endsWith('EinsteinVision_StringTooLongException'));
         }
         
         // Test 5: Test EinsteinVision_NullPointerException with null value for labels
         try {
             dataset = service.createDataset('Beaches and Mountains', null);
         } catch (Exception e) {
-            System.assert(e.getTypeName().equals('EinsteinVision_NullPointerException'));
+            System.assert(e.getTypeName().endsWith('EinsteinVision_NullPointerException'));
         }
         
         // Test 6: Test EinsteinVision_NoValuesException for emtpy labels array
@@ -64,7 +64,7 @@ public with sharing class Test_EinsteinVision {
             String[] labelsEmpty = new String[]{};
                 dataset = service.createDataset('Beaches and Mountains', labelsEmpty);
         } catch (Exception e) {
-            System.assert(e.getTypeName().equals('EinsteinVision_NoValuesException'));
+            System.assert(e.getTypeName().endsWith('EinsteinVision_NoValuesException'));
         }
         
         // Test 7: Test EinsteinVision_TooManyValuesException for label count > 1000
@@ -75,7 +75,7 @@ public with sharing class Test_EinsteinVision {
                 }
             dataset = service.createDataset('Beaches and Mountains', labelsTooBig);
         } catch (Exception e) {
-            System.assert(e.getTypeName().equals('EinsteinVision_TooManyValuesException'));
+            System.assert(e.getTypeName().endsWith('EinsteinVision_TooManyValuesException'));
         }
         
         Test.StopTest();
@@ -159,7 +159,7 @@ public with sharing class Test_EinsteinVision {
         try {
             label = service.createLabel(57, '');
         } catch (Exception e) {
-            System.assert(e.getTypeName().equals('EinsteinVision_StringIsEmptyException'));
+            System.assert(e.getTypeName().endsWith('EinsteinVision_StringIsEmptyException'));
         }
         
         // Test 4: Test EinsteinVision_StringTooLongException Dataset name > 180 characters
@@ -167,7 +167,7 @@ public with sharing class Test_EinsteinVision {
             String nameTooLong = 'AbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefg';
             label = service.createLabel(57, nameTooLong);
         } catch (Exception e) {
-            System.assert(e.getTypeName().equals('EinsteinVision_StringTooLongException'));
+            System.assert(e.getTypeName().endsWith('EinsteinVision_StringTooLongException'));
         }
         
         Test.StopTest();
@@ -224,7 +224,7 @@ public with sharing class Test_EinsteinVision {
         try {
             dataset = service.createExamplesFromUrl(1000022, '');
         } catch (Exception e) {
-            System.assert(e.getTypeName().equals('EinsteinVision_StringIsEmptyException'));
+            System.assert(e.getTypeName().endsWith('EinsteinVision_StringIsEmptyException'));
         }
         
         Test.StopTest();
@@ -333,44 +333,44 @@ public with sharing class Test_EinsteinVision {
             model = service.trainDataset(0, 'Beach and Mountain Model', 0, 0, '');
         } catch (Exception e) {
             System.debug('Error is: ' + e.getTypeName());
-            System.assert(e.getTypeName().equals('EinsteinVision_NoValuesException'));
+            System.assert(e.getTypeName().endsWith('EinsteinVision_NoValuesException'));
         }
         
         try {
             model = service.trainDataset(57, '', 0, 0, '');
         } catch (Exception e) {
-            System.assert(e.getTypeName().equals('EinsteinVision_StringIsEmptyException'));
+            System.assert(e.getTypeName().endsWith('EinsteinVision_StringIsEmptyException'));
         }
         
         try {
             String nameTooLong = 'AbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefg';
             model = service.trainDataset(57, nameTooLong, 0, 0, '');
         } catch (Exception e) {
-            System.assert(e.getTypeName().equals('EinsteinVision_StringTooLongException'));
+            System.assert(e.getTypeName().endsWith('EinsteinVision_StringTooLongException'));
         }
         
         try {
             model = service.trainDataset(57, 'Beach and Mountain Model', 101, 0, '');
         } catch (Exception e) {
-            System.assert(e.getTypeName().equals('EinsteinVision_NumberTooBigException'));
+            System.assert(e.getTypeName().endsWith('EinsteinVision_NumberTooBigException'));
         }
         
         try {
             model = service.trainDataset(57, 'Beach and Mountain Model', 101, 0, '');
         } catch (Exception e) {
-            System.assert(e.getTypeName().equals('EinsteinVision_NumberTooBigException'));
+            System.assert(e.getTypeName().endsWith('EinsteinVision_NumberTooBigException'));
         }
         
         try {
             model = service.trainDataset(57, 'Beach and Mountain Model', 0, 0.00001, '');
         } catch (Exception e) {
-            System.assert(e.getTypeName().equals('EinsteinVision_NumberTooSmallException'));
+            System.assert(e.getTypeName().endsWith('EinsteinVision_NumberTooSmallException'));
         }
         
         try {
             model = service.trainDataset(57, 'Beach and Mountain Model', 0, 0.1, '');
         } catch (Exception e) {
-            System.assert(e.getTypeName().equals('EinsteinVision_NumberTooBigException'));
+            System.assert(e.getTypeName().endsWith('EinsteinVision_NumberTooBigException'));
         }
         
         Test.StopTest();
@@ -545,27 +545,27 @@ public with sharing class Test_EinsteinVision {
         try {
             bodyPartDataset.setName('');
         } catch (Exception e) {
-            System.assert(e.getTypeName().equals('EinsteinVision_StringIsEmptyException'));
+            System.assert(e.getTypeName().endsWith('EinsteinVision_StringIsEmptyException'));
         }
         
         try {
             String nameTooLong = 'AbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefg';
             bodyPartDataset.setName(nameTooLong);
         } catch (Exception e) {
-            System.assert(e.getTypeName().equals('EinsteinVision_StringTooLongException'));
+            System.assert(e.getTypeName().endsWith('EinsteinVision_StringTooLongException'));
         }
         
         try {
             bodyPartDataset.setLabels(null);
         } catch (Exception e) {
-            System.assert(e.getTypeName().equals('EinsteinVision_NullPointerException'));
+            System.assert(e.getTypeName().endsWith('EinsteinVision_NullPointerException'));
         }
         
         try {
             String[] labelsEmpty = new String[]{};
                 bodyPartDataset.setLabels(labelsEmpty);
         } catch (Exception e) {
-            System.assert(e.getTypeName().equals('EinsteinVision_NoValuesException'));
+            System.assert(e.getTypeName().endsWith('EinsteinVision_NoValuesException'));
         }
         
         try {
@@ -575,7 +575,7 @@ public with sharing class Test_EinsteinVision {
                 }
             bodyPartDataset.setLabels(labelsTooBig);
         } catch (Exception e) {
-            System.assert(e.getTypeName().equals('EinsteinVision_TooManyValuesException'));
+            System.assert(e.getTypeName().endsWith('EinsteinVision_TooManyValuesException'));
         }
         
         EinsteinVision_HttpBodyPartDatasetUrl bodyPartDatasetUrl = new EinsteinVision_HttpBodyPartDatasetUrl('http://my.test1.com');
@@ -586,7 +586,7 @@ public with sharing class Test_EinsteinVision {
         try {
             bodyPartDatasetUrl.setUrl('');
         } catch (Exception e) {
-            System.assert(e.getTypeName().equals('EinsteinVision_StringIsEmptyException'));
+            System.assert(e.getTypeName().endsWith('EinsteinVision_StringIsEmptyException'));
         }
         
         EinsteinVision_HttpBodyPartLabel bodyPartLabel = new EinsteinVision_HttpBodyPartLabel('Test1');
@@ -597,7 +597,7 @@ public with sharing class Test_EinsteinVision {
         try {
             bodyPartLabel.setName('');
         } catch (Exception e) {
-            System.assert(e.getTypeName().equals('EinsteinVision_StringIsEmptyException'));
+            System.assert(e.getTypeName().endsWith('EinsteinVision_StringIsEmptyException'));
         }
         
         // Test 4: Test EinsteinVision_StringTooLongException Dataset name > 180 characters
@@ -605,7 +605,7 @@ public with sharing class Test_EinsteinVision {
             String nameTooLong = 'AbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefg';
             bodyPartLabel.setName(nameTooLong);
         } catch (Exception e) {
-            System.assert(e.getTypeName().equals('EinsteinVision_StringTooLongException'));
+            System.assert(e.getTypeName().endsWith('EinsteinVision_StringTooLongException'));
         }
         
         EinsteinVision_HttpBodyPartPrediction bodyPartPrediction = new EinsteinVision_HttpBodyPartPrediction('modelId1', 'testData1', '', EinsteinVision_HttpBodyPartPrediction.TYPES.BASE64);
@@ -630,7 +630,7 @@ public with sharing class Test_EinsteinVision {
         try {
             bodyPartTraining.setDatasetId(0);
         } catch (Exception e) {
-            System.assert(e.getTypeName().equals('EinsteinVision_NoValuesException'));
+            System.assert(e.getTypeName().endsWith('EinsteinVision_NoValuesException'));
         }  
         
         bodyPartTraining.setName('Test2');
@@ -639,14 +639,14 @@ public with sharing class Test_EinsteinVision {
         try {
             bodyPartTraining.setName('');
         } catch (Exception e) {
-            System.assert(e.getTypeName().equals('EinsteinVision_StringIsEmptyException'));
+            System.assert(e.getTypeName().endsWith('EinsteinVision_StringIsEmptyException'));
         }     
         
         try {
             String nameTooLong = 'AbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefgAbcdefg';
             bodyPartTraining.setName(nameTooLong);
         } catch (Exception e) {
-            System.assert(e.getTypeName().equals('EinsteinVision_StringTooLongException'));
+            System.assert(e.getTypeName().endsWith('EinsteinVision_StringTooLongException'));
         }
         
         bodyPartTraining.setEpochs(5);
@@ -655,7 +655,7 @@ public with sharing class Test_EinsteinVision {
         try {
             bodyPartTraining.setEpochs(101);
         } catch (Exception e) {
-            System.assert(e.getTypeName().equals('EinsteinVision_NumberTooBigException'));
+            System.assert(e.getTypeName().endsWith('EinsteinVision_NumberTooBigException'));
         }
         
         bodyPartTraining.setLearningRate(0.001);
@@ -664,13 +664,13 @@ public with sharing class Test_EinsteinVision {
         try {
             bodyPartTraining.setLearningRate(0.1);
         } catch (Exception e) {
-            System.assert(e.getTypeName().equals('EinsteinVision_NumberTooBigException'));
+            System.assert(e.getTypeName().endsWith('EinsteinVision_NumberTooBigException'));
         }
         
         try {
             bodyPartTraining.setLearningRate(0.00001);
         } catch (Exception e) {
-            System.assert(e.getTypeName().equals('EinsteinVision_NumberTooSmallException'));
+            System.assert(e.getTypeName().endsWith('EinsteinVision_NumberTooSmallException'));
         } 
         
         Test.StopTest();

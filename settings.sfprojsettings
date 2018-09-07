@@ -1,7 +1,11 @@
 {
   "CodeMapPerProject": {
     "collapsedPanels": [
-      "Activity_TH"
+      "Activity_TH",
+      "My_PrescriptionTrigger_TEST",
+      "TestHelper",
+      "Pill_TH",
+      "EventTrigger_TEST"
     ]
   },
   "SettingsVersion": 1
